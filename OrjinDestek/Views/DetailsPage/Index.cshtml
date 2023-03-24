@@ -1,0 +1,388 @@
+﻿@model dynamic
+@{
+	ViewData["Title"] = "Detay Sayfası";
+	ViewData["Token"] = Model.token;
+}
+@if (TempData["Failure"] != null)
+{
+	<script src="js/cute-alert.js"></script>
+	<script type="text/javascript">
+		cuteAlert({
+			type: "error",
+			title: "Hata",
+			message: "@TempData["Failure"]",
+			buttonText: "Tamam",
+		})
+	</script>
+}
+@if (TempData["Success"] != null)
+{
+	<script src="js/cute-alert.js"></script>
+	<script type="text/javascript">
+		cuteAlert({
+			type: "success",
+			title: "Başarılı",
+			message: "@TempData["Success"]",
+			buttonText: "Tamam",
+		})
+	</script>
+}
+
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"]</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- favicon
+		============================================ -->
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	<!-- Google Fonts
+		============================================ -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+	<!-- Bootstrap CSS
+		============================================ -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Bootstrap CSS
+		============================================ -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- normalize CSS
+		============================================ -->
+	<link rel="stylesheet" href="css/data-table/bootstrap-table.css">
+	<link rel="stylesheet" href="css/data-table/bootstrap-editable.css">
+	<!-- style CSS
+		============================================ -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- responsive CSS
+		============================================ -->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- modernizr JS
+		============================================ -->
+	<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+	<!-- menu_tabs CSS -->
+	<link rel="stylesheet" href="css/menu_tabs.css" />
+	<!--ALERT CSS -->
+	<link rel="stylesheet" href="css/alert.css" />
+	<!-- jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+
+<body>
+
+	<input id="user" type="text" value="@Model.user.UserName" style="display: none" />
+
+	<div style="background-color: white ; width: 100%; margin-top: 20px ; border-radius: 10px">
+		<div class="form-row">
+			<div class="col-md-12 mb-3" style="margin-top: 10px">
+				<div class="tab">
+					<button class="tablinks" onclick="openTab(event, 'kayit_detay')" name="kayit_detay">Kayıt Detayı</button>
+					<button class="tablinks" onclick="openTab(event, 'yapilan_islemler')" name="yapilan_islemler">Yapılan İşlemler (@Model.getActionsNumber)</button>
+				</div>
+
+				<div id="yapilan_islemler" class="tabcontent">
+					<div id="yapilan_islem" class="yapilan_islem">
+						@foreach (var item in Model.getActions)
+						{
+							<div class="card mb-4">
+								<div class="card-body card-style">
+									<div class="d-flex justify-content-between" style="margin:10px 0 0 10px">
+										<div class="d-flex flex-row align-items-center">
+											<img src="img/user.png" alt="avatar" width="25" height="25" />
+											<span id="action_span" class="small mb-0 ms-2" style="margin-left: 10px">
+												<b>@item.CrmUser</b> / @item.DestekTarihi / @item.BaslamaZamani
+											</span>
+										</div>
+									</div>
+									<p class="card_paragraph" style="margin-top: 10px">
+										@item.YapilanIslem
+									</p>
+								</div>
+							</div>
+						}
+					</div>
+					<div class="yapilan_islem_bottom_container_1">
+						<div class="mail_input_class">
+							<input id="email_input" type="email" class="form-control" placeholder="Kime: ornek@gmail.com" aria-label="Recipient's username" aria-describedby="basic-addon2">
+							<button id="add_mail" class="btn btn-outline-secondary hover" type="button" spellcheck="false">Ekle</button>
+						</div>
+						<div>
+							<div class="dropdown">
+								<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+									<span class="dropdown-text">Kişileri Seç</span>
+									<span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li><a href="#"><label><input type="checkbox" class="selectall" onchange="toggleSelectAll(this)" /><span class="select-text"> Select</span> All</label></a></li>
+									<li class="divider"></li>
+									@foreach (var item in Model.getPersonelEmails)
+									{
+										<li><a class="option-link" href="#"><label><input onchange="toggle(this)" name='options[]' type="checkbox" class="option justone" value='@item' />@item</label></a></li>
+									}
+
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div id="mail_tabs_menu" class="mail_tabs_menu"></div>
+					</div>
+					<div style="width:100% ; display: flex ; margin-top:10px">
+						<form id="comment-form" style="width:100% ; display: flex ; margin-top:10px"
+							  asp-controller="DetailsPage" asp-action="AddNewAction"
+							  asp-route-refNo="@Model.getRecord.RefNo" method="post">
+
+							<input id="action" name="action" type="text" class="form-control" placeholder="Yapılan İşlem" aria-label="Recipient's username" aria-describedby="basic-addon2" spellcheck="false" autocomplete="off">
+							<button id="add_action" class="btn btn-outline-secondary hover" type="submit">Gönder</button>
+
+						</form>
+					</div>
+				</div>
+				<div id="kayit_detay">
+					<form class="needs-validation" novalidate asp-controller="DetailsPage" asp-action="UpdateTheRecord"
+						  asp-route-refNo="@Model.getRecord.RefNo">
+
+						<div class="form-row">
+							<div class="col-md-4 mb-3">
+								<label for="refNo">Ref. No</label>
+								<input type="text" class="form-control" name="refNo" id="refNo" required value="@Model.getRecord.RefNo" disabled="disabled">
+							</div>
+							<div class="col-md-4 mb-3">
+								<label for="Proje">Proje Bilgisi</label>
+								<select data-toggle="modal" type="text" class="form-control" id="Proje" name="Proje">
+									<option selected="selected">@Model.getRecord.Proje</option>
+									@foreach (var item in Model.getProjeler)
+									{
+										if (item.Equals(Model.getRecord.Proje)) continue;
+										<option>@item</option>
+									}
+								</select>
+							</div>
+							<div class="col-md-4 mb-3">
+								<label for="tarih">Kayıt Zamanı</label>
+								<input type="text" class="form-control" id="tarih" name="tarih" required value="@Model.getRecord.Tarih" disabled="disabled">
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="col-md-4 mb-3" style="margin-top: 10px">
+								<label for="validationCustom04">Firma Bilgisi</label>
+								<input data-toggle="modal" data-target=".bd-example-modal-lg" type="text" class="form-control" id="validationCustom04" value="@Model.getRecord.Firma" disabled="disabled">
+							</div>
+							<div class="col-md-4 mb-3" style="margin-top: 10px">
+								<span style="font-weight: bold">Revizyon Bilgisi</span> <input id="rvzCheckBox" type="checkbox" />
+								<select class="form-control" id="RevizyonBilgisi" name="RevizyonBilgisi" required disabled="disabled"></select>
+								<input type="hidden" id="rvzBilgisi" name="rvzBilgisi" value="@Model.getRecord.RevizyonBilgisi" />
+							</div>
+							<div class="col-md-4 mb-3" style="margin-top: 10px">
+								<label for="validationCustom06">Geçen Süre</label>
+								<input type="text" class="form-control" id="validationCustom06" value="@Model.getRecord.GecenSure" disabled="disabled">
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="col-md-4 mb-3" style="margin-top: 10px">
+								<label for="TalepEden">Görüşülen Kişi</label>
+								<input type="text" class="form-control" id="TalepEden" name="TalepEden" value="@Model.getRecord.TalepEden"
+									   data-toggle="modal" data-target=".bd-example-modal-lg" autocomplete="off">
+
+								<div id="gorusulenKisiModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h3 style="width: 60% ">Firma Personeli</h3>
+												<input type="text" class="form-control" oninput="filter_list_kisi()" autocomplete="off"
+													   id="modal_search_box_kisi" placeholder="Personel Adını Ara" style="width: 40% ; height: 28px" />
+											</div>
+											<div class="list" id="list_kisi">
+												<ul class="list-group" id="list_grup_kisi" style="height: 500px ; overflow-y: scroll ;">
+													@if (Model.getGorusulenKisiListe != null)
+													{
+														@foreach (var item in Model.getGorusulenKisiListe)
+														{
+															<li class="list-group-item linked-li" onclick="getUserInfo(this)">@item</li>
+														}
+													}
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 mb-3" style="margin-top: 10px">
+								<label for="DestekTipi">Destek Tipi</label>
+								<select data-toggle="modal" type="text" class="form-control" id="DestekTipi" name="DestekTipi" required>
+									<option selected="selected">@Model.getRecord.DestekTipi</option>
+									@foreach (var item in Model.getDestekTipleri)
+									{
+										if (item.Equals(Model.getRecord.DestekTipi)) continue;
+										<option>@item</option>
+									}
+								</select>
+							</div>
+							<div class="col-md-4 mb-3" style="margin-top: 10px">
+								<label for="DestekPersonel">Destek Personel</label>
+								<select data-toggle="modal" type="text" class="form-control" id="DestekPersonel" name="DestekPersonel" required>
+									<option selected="selected">@Model.getRecord.DestekPersonel</option>
+									@foreach (var item in Model.getDestekPersonel)
+									{
+										if (item.Equals(Model.getRecord.DestekPersonel)) continue;
+										<option>@item</option>
+									}
+								</select>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="col-md-4 mb-3" style="margin-top: 10px">
+								<label for="EmailHesabi">E-mail hesabı</label>
+								<input type="text" class="form-control" name="EmailHesabi" id="EmailHesabi" value="@Model.getRecord.EmailHesabi" disabled="disabled">
+								<input id="userEmail" name="userEmail" type="hidden" value="@Model.getRecord.EmailHesabi" />
+							</div>
+							<div class="col-md-4 mb-3" style="margin-top: 10px">
+								<label for="Konu">Destek Konusu</label>
+								<select data-toggle="modal" type="text" class="form-control" id="Konu" name="Konu">
+									<option selected="selected">@Model.getRecord.Konu</option>
+									@foreach (var item in Model.getDestekKonusu)
+									{
+										if (item.Equals(Model.getRecord.Konu)) continue;
+										<option>@item</option>
+									}
+								</select>
+							</div>
+							<div class="col-md-4 mb-3" style="margin-top: 10px">
+								<label for="Oncelik">Öncelik</label>
+								<select data-toggle="modal" type="text" class="form-control" id="Oncelik" name="Oncelik" required>
+									<option selected="selected">@Model.getRecord.Oncelik</option>
+									@if (Model.getRecord.Oncelik.Equals("ÇOK ACİL"))
+									{
+										<option>ACİL</option>
+										<option>NORMAL</option>
+									}
+									else if (Model.getRecord.Oncelik.Equals("ACİL"))
+									{
+										<option>ÇOK ACİL</option>
+										<option>NORMAL</option>
+									}
+									else if (Model.getRecord.Oncelik.Equals("NORMAL"))
+									{
+										<option>ACİL</option>
+										<option>ÇOK ACİL</option>
+									}
+									else
+									{
+										<option>ÇOK ACİL</option>
+										<option>ACİL</option>
+										<option>NORMAL</option>
+									}
+								</select>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="col-md-4 mb-3" style="margin-top: 10px">
+								<label for="TelNo">Tel. No</label>
+								<input type="text" class="form-control" name="TelNo" id="TelNo" value="@Model.getRecord.TelNo" disabled="disabled">
+								<input id="userTelNo" name="userTelNo" type="hidden" value="@Model.getRecord.TelNo" />
+							</div>
+							<div class="col-md-4 mb-3" style="margin-top: 10px">
+								<label for="DestekSekli">Destek Şekli</label>
+								<select data-toggle="modal" type="text" class="form-control" id="DestekSekli" name="DestekSekli" required>
+									<option selected="selected">@Model.getRecord.DestekSekli</option>
+									@foreach (var item in Model.getDestekSekli)
+									{
+										if (item.Equals(Model.getRecord.DestekSekli)) continue;
+										<option>@item</option>
+									}
+								</select>
+							</div>
+							<div class="col-md-4 mb-3" style="margin-top: 10px">
+								<label for="Durum">Durum</label>
+								<select data-toggle="modal" type="text" class="form-control" id="Durum" name="Durum" required>
+									@if (Model.getRecord.Durum == null || Model.getRecord.Durum == "" )
+									{
+										<option selected="selected">AÇIK</option>
+									} 
+									else
+									{
+										<option selected="selected">@Model.getRecord.Durum</option>
+									}
+									@if (Model.getRecord.Durum.Equals("KAPALI"))
+									{
+										<option>AÇIK</option>
+									}
+									else
+									{
+										<option>KAPALI</option>
+									}
+									<!--@foreach (var item in Model.getDurumListe)
+									{
+											<option>@item</option>
+									} -->
+								</select>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="col-md-12 mb-3" style="margin-top: 10px">
+								<label for="Istekler">Konu Açıklama</label>
+								<textarea class="form-control" id="Istekler" name="Istekler" rows="5" style="resize: vertical">@Model.getRecord.Aciklama</textarea>
+							</div>
+						</div>
+						<div style="padding: 15px ; width: 100% ; display: flex ; justify-content: center">
+							<button class="btn btn-primary" type="submit">Güncelle</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- jquery
+	============================================ -->
+	<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<!-- bootstrap JS
+	============================================ -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- wow JS
+	============================================ -->
+	<script src="js/wow.min.js"></script>
+
+	<!-- data table JS
+	============================================ -->
+	<script src="js/data-table/bootstrap-table.js"></script>
+	<script src="js/data-table/tableExport.js"></script>
+	<script src="js/data-table/data-table-active.js"></script>
+	<script src="js/data-table/bootstrap-table-editable.js"></script>
+	<script src="js/data-table/bootstrap-editable.js"></script>
+	<script src="js/data-table/bootstrap-table-resizable.js"></script>
+	<script src="js/data-table/colResizable-1.5.source.js"></script>
+	<script src="js/data-table/bootstrap-table-export.js"></script>
+	<!--  editable JS
+	============================================ -->
+	<script src="js/editable/jquery.mockjax.js"></script>
+	<script src="js/editable/mock-active.js"></script>
+	<script src="js/editable/select2.js"></script>
+	<script src="js/editable/moment.min.js"></script>
+	<script src="js/editable/bootstrap-datetimepicker.js"></script>
+	<script src="js/editable/bootstrap-editable.js"></script>
+	<script src="js/editable/xediable-active.js"></script>
+
+	<!-- tab JS
+	============================================ -->
+	<script src="js/tab.js"></script>
+	<!-- plugins JS
+	============================================ -->
+	<script src="js/plugins.js"></script>
+	<!-- menu_tabs JS -->
+	<script src="js/menu_tabs.js"></script>
+	<!-- selection JS -->
+	<script src="js/selection.js"></script>
+	<!-- Modal Search Script  -->
+	<script src="js/modal_search.js"></script>
+	<!-- detailMainJsCodes.js -->
+	<script src="js/detailsMainJsCodes.js"></script>
+	<!-- CUTE ALERT JS -->
+	<script src="js/cute-alert.js"></script>
+
+</body>
+</html>

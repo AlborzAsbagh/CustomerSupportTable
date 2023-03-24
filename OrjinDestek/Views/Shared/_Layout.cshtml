@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <!-- responsive CSS
+    ============================================ -->
+    <link rel="stylesheet" href="css/navbar.css" />
+    <!---Fav Icon --->
+    <link rel="shortcut icon" type="image/x-icon" href="img/support_icon.png">
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <div id="menu_container" class="container">
+        <div class="area"></div><nav class="main-menu">
+            <ul>
+                <li>
+                    <a asp-controller="Home" asp-action="Index" asp-route-token="@ViewData["Token"]">
+                        <i class="fa fa-home margin-top-icon"></i>
+                    </a>
+
+                </li>
+                <li class="has-subnav">
+                    <a href="#">
+                        <i class="fa fa-globe margin-top-icon"></i>
+                    </a>
+
+                </li>
+                <li class="has-subnav">
+                    <a href="#">
+                        <i class="fa fa-comments margin-top-icon"></i>
+                    </a>
+
+                </li>
+                <li class="has-subnav">
+                    <a href="#">
+                        <i class="fa fa-camera-retro margin-top-icon"></i>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-film margin-top-icon"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-book margin-top-icon"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-cogs margin-top-icon"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-map-marker margin-top-icon"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-info margin-top-icon"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="logout">
+                <li>
+                    <a asp-controller="Login" asp-action="Index">
+                        <i class="fa fa-power-off margin-top-icon"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

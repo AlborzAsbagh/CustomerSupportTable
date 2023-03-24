@@ -1,0 +1,283 @@
+﻿@model dynamic
+@{
+	ViewData["Title"] = "Yeni Kayıt Ekle";
+	ViewData["Token"] = Model.token;
+}
+@if (TempData["Failure"] != null)
+{
+	<script src="js/cute-alert.js"></script>
+	<script type="text/javascript">
+		cuteAlert({
+			type: "error",
+			title: "Hata",
+			message: "@TempData["Failure"]",
+			buttonText: "Tamam",
+		});
+	</script>
+}
+@if (TempData["Success"] != null)
+{
+	<script src="js/cute-alert.js"></script>
+	<script type="text/javascript">
+		cuteAlert({
+			type: "success",
+			title: "Başarılı",
+			message: "@TempData["Failure"]",
+			buttonText: "Tamam",
+		})
+	</script>
+}
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"]</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- favicon
+	============================================ -->
+	<link rel="shortcut icon" type="image/x-icon" href="img/email.png">
+	<!-- Google Fonts
+	============================================ -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+	<!-- Bootstrap CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Bootstrap CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- normalize CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/data-table/bootstrap-table.css">
+	<link rel="stylesheet" href="css/data-table/bootstrap-editable.css">
+	<!-- style CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- responsive CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- modernizr JS
+	============================================ -->
+	<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+	<!-- Alert Css -->
+	<link rel="stylesheet" href="css/alert.css" />
+</head>
+
+
+<body>
+
+	<div style="background-color: white ; width: 100%; margin-top: 20px ; border-radius: 10px">
+		<div style="padding: 10px ; width: 100% ; display: flex ; justify-items: start">
+			<h3>Yeni Kayıt </h3>
+		</div>
+		<form class="needs-validation" novalidate name="addRecordForm" onsubmit="validateForm()" method="post"
+			  asp-controller="AddRecord" asp-action="AddNewRecord">
+			<div class="form-row">
+				<div class="col-md-4 mb-3">
+					<label for="validationCustom01">Ref. No</label>
+					<input type="text" class="form-control" id="validationCustom01" required value="-" disabled="disabled">
+				</div>
+				<div class="col-md-4 mb-3">
+					<label for="Proje">Proje Bilgisi</label>
+					<select data-toggle="modal" type="text" class="form-control" id="Proje" name="Proje">
+						<option selected="selected"></option>
+						@foreach (var item in Model.getProjeler)
+						{
+							<option>@item</option>
+						}
+					</select>
+				</div>
+				<div class="col-md-4 mb-3">
+					<label for="validationCustom03">Kayıt Zamanı</label>
+					<input type="text" class="form-control" id="validationCustom03" required value="@DateTime.Now" disabled="disabled">
+				</div>
+			</div>
+			<div class="form-row">
+				<div class="col-md-4 mb-3" style="margin-top: 10px">
+					<label for="Firma">Firma Bilgisi</label>
+					<input type="text" class="form-control" id="Firma" required data-toggle="modal" data-target=".bd-example-modal-xl"
+						   name="Firma" autocomplete="off">
+
+					<div id="firmaModal" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3 style="width: 60% ">Firmalar</h3>
+									<input type="text" class="form-control" oninput="filter_list()" autocomplete="off"
+										   id="modal_search_box" placeholder="Firma Adını Ara" style="width: 40% ; height: 28px" />
+								</div>
+								<div class="list">
+									<ul class="list-group" style="max-height: 500px ; overflow-y: scroll ;">
+										@if (Model.getFirmalarListe != null)
+										{
+											@foreach (var item in Model.getFirmalarListe)
+											{
+												<li class="list-group-item linked-li" onclick="getGorusulenKisi(this)">@item</li>
+												
+											}
+										}
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mb-3" style="margin-top: 10px">
+					<span style="font-weight: bold">Revizyon Bilgisi</span> <input id="rvzCheckBox" type="checkbox" />
+					<select class="form-control" id="RevizyonBilgisi" name="RevizyonBilgisi" required disabled="disabled"></select>
+				</div>
+				<div class="col-md-4 mb-3" style="margin-top: 10px">
+					<label for="validationCustom06">Geçen Süre</label>
+					<input type="text" class="form-control" id="validationCustom06" required value="-" disabled="disabled">
+				</div>
+			</div>
+			<div class="form-row">
+				<div class="col-md-4 mb-3" style="margin-top: 10px">
+					<label for="TalepEden">Görüşülen Kişi</label>
+					<input type="text" class="form-control" id="TalepEden" name="TalepEden"
+						   data-toggle="modal" data-target=".bd-example-modal-lg" autocomplete="off">
+
+					<div id="gorusulenKisiModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3 style="width: 60% ">Firma Personeli</h3>
+									<input type="text" class="form-control" oninput="filter_list_kisi()" autocomplete="off"
+										   id="modal_search_box_kisi" placeholder="Personel Adını Ara" style="width: 40% ; height: 28px" />
+								</div>
+								<div class="list" id="list_kisi">
+									<ul class="list-group" id="list_grup_kisi" style="height: 500px ; overflow-y: scroll ;"></ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mb-3" style="margin-top: 10px">
+					<label for="DestekTipi">Destek Tipi</label>
+					<select data-toggle="modal" type="text" class="form-control" id="DestekTipi" name="DestekTipi" required>
+						<option selected="selected"></option>
+						@foreach (var item in Model.destekTipleri)
+						{
+							<option>@item</option>
+						}
+					</select>
+				</div>
+				<div class="col-md-4 mb-3" style="margin-top: 10px">
+					<label for="DestekPersonel">Destek Personel</label>
+					<select data-toggle="modal" type="text" class="form-control" id="DestekPersonel" name="DestekPersonel" required>
+						<option selected="selected"></option>
+						@foreach (var item in Model.personelList)
+						{
+							<option>@item</option>
+						}
+					</select>
+				</div>
+			</div>
+			<div class="form-row">
+				<div class="col-md-4 mb-3" style="margin-top: 10px">
+					<label for="EmailHesabi">E-mail hesabı</label>
+					<input type="email" class="form-control" id="EmailHesabi" name="EmailHesabi" required>
+				</div>
+				<div class="col-md-4 mb-3" style="margin-top: 10px">
+					<label for="Konu">Destek Konusu</label>
+					<select data-toggle="modal" type="text" class="form-control" id="Konu" name="Konu">
+						<option selected="selected"></option>
+						@foreach (var item in Model.destekKonusuList)
+						{
+							<option>@item</option>
+						}
+					</select>
+				</div>
+				<div class="col-md-4 mb-3" style="margin-top: 10px">
+					<label for="Oncelik">Öncelik</label>
+					<select data-toggle="modal" type="text" class="form-control" id="Oncelik" name="Oncelik" required>
+						<option selected="selected"></option>
+						<option>ÇOK ACİL</option>
+						<option>ACİL</option>
+						<option>NORMAL</option>
+					</select>
+				</div>
+			</div>
+			<div class="form-row">
+				<div class="col-md-4 mb-3" style="margin-top: 10px">
+					<label for="TelNo">Tel. No</label>
+					<input type="text" class="form-control" id="TelNo" name="TelNo" required>
+				</div>
+				<div class="col-md-4 mb-3" style="margin-top: 10px">
+					<label for="DestekSekli">Destek Şekli</label>
+					<select data-toggle="modal" type="text" class="form-control" id="DestekSekli" name="DestekSekli" required>
+						<option selected="selected"></option>
+						@foreach (var item in Model.destekSekliList)
+						{
+							<option>@item</option>
+						}
+					</select>
+				</div>
+				<div class="col-md-4 mb-3" style="margin-top: 10px">
+					<label for="Durum">Durum</label>
+					<input type="text" class="form-control" id="Durum" name="Durum" 
+					required disabled="disabled" value="َAÇIK">
+				</div>
+			</div>
+
+			<div class="form-row">
+				<div class="col-md-12 mb-3" style="margin-top: 10px">
+					<label for="Aciklama">Konu Açıklama</label>
+					<textarea class="form-control" id="Aciklama" name="Aciklama" rows="5"></textarea>
+				</div>
+			</div>
+			<div style="padding: 15px ; width: 100% ; display: flex ; justify-content: center">
+				<button class="btn btn-primary" type="submit">Kaydı Ekle</button>
+			</div>
+		</form>
+	</div>
+
+
+	<!-- jquery
+	============================================ -->
+	<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<!-- bootstrap JS
+	============================================ -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- wow JS
+	============================================ -->
+	<script src="js/wow.min.js"></script>
+
+	<!-- data table JS
+	============================================ -->
+	<script src="js/data-table/bootstrap-table.js"></script>
+	<script src="js/data-table/tableExport.js"></script>
+	<script src="js/data-table/data-table-active.js"></script>
+	<script src="js/data-table/bootstrap-table-editable.js"></script>
+	<script src="js/data-table/bootstrap-editable.js"></script>
+	<script src="js/data-table/bootstrap-table-resizable.js"></script>
+	<script src="js/data-table/colResizable-1.5.source.js"></script>
+	<script src="js/data-table/bootstrap-table-export.js"></script>
+	<!--  editable JS
+	============================================ -->
+	<script src="js/editable/jquery.mockjax.js"></script>
+	<script src="js/editable/mock-active.js"></script>
+	<script src="js/editable/select2.js"></script>
+	<script src="js/editable/moment.min.js"></script>
+	<script src="js/editable/bootstrap-datetimepicker.js"></script>
+	<script src="js/editable/bootstrap-editable.js"></script>
+	<script src="js/editable/xediable-active.js"></script>
+
+	<!-- tab JS
+	============================================ -->
+	<script src="js/tab.js"></script>
+	<!-- plugins JS
+	============================================ -->
+	<script src="js/plugins.js"></script>
+	<!-- Modal Search Script
+	============================================ -->
+	<script src="js/modal_search.js"></script>
+	<!-- Add Record Validation
+	============================================ -->
+	<script src="js/addRecord.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,1146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7wZLc4m1FUSA1tOTqjPGIgAAAAACAAAAAAAQZgAAAAEAACAAAADNv04aO+5hUTV18LB+OZDjCH56SzGcr0v80KqMr1mFkwAAAAAOgAAAAAIAACAAAABezlmUN7Pv6j69Sf89VFnPRveYVpS6KDl3JMxbdpobCiAAAADArWfoddA+SZLbqkAoTw7NkmF6xOpOLbjmEfZGBqANz0AAAAAh2a+gnqDHE62SKAZcLbpXXFJZZ0+I5oW/qD01l687aUquUKq2thMxVRT3pmgd2xiNIY8StuD9JcwYruZ63ezl</EncryptedPassword>
+    <_PublishTargetUrl>ftp://destek.orjin.net/</_PublishTargetUrl>
+    <History>True|2023-03-24T11:34:38.9037909Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>03/18/2023 17:47:18</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>03/24/2023 10:49:58</publishTime>
+    </File>
+    <File Include="Azure.Core.dll">
+      <publishTime>06/30/2022 22:28:36</publishTime>
+    </File>
+    <File Include="Azure.Identity.dll">
+      <publishTime>09/19/2022 23:31:34</publishTime>
+    </File>
+    <File Include="FluentEmail.Core.dll">
+      <publishTime>03/18/2022 01:35:08</publishTime>
+    </File>
+    <File Include="FluentEmail.Smtp.dll">
+      <publishTime>03/18/2022 01:35:10</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Authentication.JwtBearer.dll">
+      <publishTime>09/23/2021 05:50:38</publishTime>
+    </File>
+    <File Include="Microsoft.Bcl.AsyncInterfaces.dll">
+      <publishTime>04/15/2020 01:39:12</publishTime>
+    </File>
+    <File Include="Microsoft.Data.SqlClient.dll">
+      <publishTime>01/19/2023 19:05:48</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>03/01/2023 03:20:04</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>03/01/2023 03:20:36</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>03/01/2023 03:20:54</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.SqlServer.dll">
+      <publishTime>03/01/2023 03:21:54</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Abstractions.dll">
+      <publishTime>02/28/2023 20:30:56</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Memory.dll">
+      <publishTime>02/28/2023 20:31:56</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.Abstractions.dll">
+      <publishTime>02/28/2023 20:31:04</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <publishTime>02/28/2023 20:27:10</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>02/28/2023 20:27:30</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.Abstractions.dll">
+      <publishTime>02/28/2023 20:30:04</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.dll">
+      <publishTime>02/28/2023 20:32:14</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Options.dll">
+      <publishTime>02/28/2023 20:31:40</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Primitives.dll">
+      <publishTime>02/28/2023 20:30:12</publishTime>
+    </File>
+    <File Include="Microsoft.Identity.Client.dll">
+      <publishTime>10/03/2022 20:40:38</publishTime>
+    </File>
+    <File Include="Microsoft.Identity.Client.Extensions.Msal.dll">
+      <publishTime>11/20/2021 01:02:00</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Abstractions.dll">
+      <publishTime>10/13/2022 22:42:54</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>10/13/2022 22:20:20</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Logging.dll">
+      <publishTime>10/13/2022 22:22:04</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>10/13/2022 22:24:18</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>10/13/2022 22:34:00</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>10/13/2022 22:29:00</publishTime>
+    </File>
+    <File Include="Microsoft.SqlServer.Server.dll">
+      <publishTime>01/27/2022 20:19:08</publishTime>
+    </File>
+    <File Include="Microsoft.Win32.SystemEvents.dll">
+      <publishTime>10/23/2021 02:40:24</publishTime>
+    </File>
+    <File Include="OrjinDestek.deps.json">
+      <publishTime>03/24/2023 14:30:31</publishTime>
+    </File>
+    <File Include="OrjinDestek.dll">
+      <publishTime>03/24/2023 14:30:30</publishTime>
+    </File>
+    <File Include="OrjinDestek.exe">
+      <publishTime>03/24/2023 14:30:30</publishTime>
+    </File>
+    <File Include="OrjinDestek.pdb">
+      <publishTime>03/24/2023 14:30:30</publishTime>
+    </File>
+    <File Include="OrjinDestek.runtimeconfig.json">
+      <publishTime>03/19/2023 15:00:47</publishTime>
+    </File>
+    <File Include="runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll">
+      <publishTime>02/28/2023 20:17:38</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll">
+      <publishTime>01/19/2023 19:05:48</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/net6.0/System.Drawing.Common.dll">
+      <publishTime>10/23/2021 02:51:42</publishTime>
+    </File>
+    <File Include="runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>01/13/2023 01:19:36</publishTime>
+    </File>
+    <File Include="runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>01/13/2023 01:19:36</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>01/13/2023 01:19:36</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>01/13/2023 01:19:36</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll">
+      <publishTime>01/19/2023 19:05:50</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll">
+      <publishTime>10/23/2021 02:40:18</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/net6.0/System.Drawing.Common.dll">
+      <publishTime>10/23/2021 02:48:10</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/net6.0/System.Runtime.Caching.dll">
+      <publishTime>10/23/2021 02:52:44</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>10/23/2021 02:51:04</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/net6.0/System.Windows.Extensions.dll">
+      <publishTime>10/23/2021 02:49:58</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>08/19/2022 22:58:02</publishTime>
+    </File>
+    <File Include="System.Drawing.Common.dll">
+      <publishTime>10/23/2021 02:49:12</publishTime>
+    </File>
+    <File Include="System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>10/13/2022 22:18:58</publishTime>
+    </File>
+    <File Include="System.Memory.Data.dll">
+      <publishTime>04/08/2021 19:45:54</publishTime>
+    </File>
+    <File Include="System.Runtime.Caching.dll">
+      <publishTime>10/23/2021 02:52:02</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>10/23/2021 02:51:04</publishTime>
+    </File>
+    <File Include="System.Security.Permissions.dll">
+      <publishTime>10/23/2021 02:49:50</publishTime>
+    </File>
+    <File Include="System.Text.Encodings.Web.dll">
+      <publishTime>02/28/2023 20:17:50</publishTime>
+    </File>
+    <File Include="System.Text.Json.dll">
+      <publishTime>02/28/2023 20:20:56</publishTime>
+    </File>
+    <File Include="System.Windows.Extensions.dll">
+      <publishTime>10/23/2021 02:49:44</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>03/24/2023 14:30:32</publishTime>
+    </File>
+    <File Include="wwwroot/css/accordions.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/alert.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/alerts.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/animate.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/assets/images/grid.svg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/assets/images/log-out.svg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/assets/images/logo.svg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/assets/images/menu.svg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/assets/images/pet.svg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/assets/images/search.svg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/assets/images/settings.svg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/assets/images/user.svg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/assets/images/vet.svg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap.min.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap.min.css.map">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/buttons.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/c3/c3.min.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/calendar/fullcalendar.min.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/calendar/fullcalendar.print.min.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/chosen/bootstrap-chosen.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/chosen/chosen-sprite.png">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/code-editor/ambiance.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/code-editor/codemirror.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/colorpicker/colorpicker.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/cropper/cropper.min.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/data-table/bootstrap-editable.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/data-table/bootstrap-table.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/datapicker/colorpicker.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/datapicker/datepicker3.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/dropzone/dropzone.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/duallistbox/bootstrap-duallistbox.min.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/editor/bootstrap-editable.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/editor/datetimepicker.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/editor/select2.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/editor/x-editor-style.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/educate-custon-icon.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/font-awesome.min.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/form.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/form/all-type-forms.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/form/themesaller-forms.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/ionRangeSlider/ion.rangeSlider.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/ionRangeSlider/ion.rangeSlider.skinFlat.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/ionRangeSlider/sprite-skin-flat.png">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/login.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/main.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/meanmenu.min.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/menu_tabs.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/metisMenu/metisMenu-vertical.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/metisMenu/metisMenu.min.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/metisMenu/metisMenu.min.css.map">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/modals.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/morrisjs/morris.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/navbar.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/normalize.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/notifications/Lobibox.min.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/notifications/notifications.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/owl.carousel.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/owl.theme.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/owl.transitions.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/preloader/preloader-style.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/responsive.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/scrollbar/jquery.mCustomScrollbar.min.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/select2/select2.min.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/style.css">
+      <publishTime>03/19/2023 14:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/summernote/fonts/summernote.eot">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/summernote/fonts/summernote.ttf">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/summernote/fonts/summernote.woff">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/summernote/summernote.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/tabs.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/touchspin/jquery.bootstrap-touchspin.min.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/tree-viewer/32px.png">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/tree-viewer/throbber.gif">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/css/tree-viewer/tree-viewer.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/fonts/educate-icon.svg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/fonts/educate-icon.ttf">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/fonts/educate-icon.woff">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/fonts/fontawesome-webfont.eot">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/fonts/fontawesome-webfont.svg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/fonts/fontawesome-webfont.ttf">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/fonts/fontawesome-webfont.woff">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/fonts/fontawesome-webfont.woff2">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/fonts/FontAwesome.otf">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/blog-details/1.jpg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/clear.png">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/contact/1.jpg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/contact/2.jpg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/contact/3.jpg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/contact/4.jpg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/courses/1.jpg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/courses/2.jpg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/courses/3.jpg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/cropper/1.jpg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/customer-support.png">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/email.png">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/error.svg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/favicon.ico">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/green1.png">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/info.svg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/loading.gif">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/logo/logo.png">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/logo/logosn.png">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/notification/1.jpg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/notification/2.jpg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/notification/3.jpg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/notification/4.jpg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/notification/5.jpg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/notification/6.jpg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/product/book-1.jpg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/product/book-2.jpg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/product/book-3.jpg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/product/book-4.jpg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/product/pro4.jpg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/product/profile-bg.jpg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/profile/1.jpg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/question.svg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/student/1.jpg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/student/2.jpg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/student/3.jpg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/student/4.jpg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/success.svg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/support_icon.png">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/user.png">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/warning.svg">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/addRecord.js">
+      <publishTime>03/19/2023 14:42:24</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/c3-charts/c3-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/c3-charts/c3.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/c3-charts/d3.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/calendar/fullcalendar-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/calendar/fullcalendar.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/calendar/moment.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/card.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/chart/jquery.peity.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/chart/peity-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/charts/area-chart.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/charts/bar-chart.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/charts/Chart.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/charts/line-chart.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/charts/rounded-chart.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/chosen/chosen-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/chosen/chosen.jquery.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/chosen/chosen.jquery.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/code-editor/code-editor-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/code-editor/code-editor.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/code-editor/codemirror.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/colorpicker/color-picker-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/colorpicker/jquery.spectrum.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/counterup/counterup-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/counterup/jquery.counterup.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/counterup/waypoints.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/cropper/cropper-actice.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/cropper/cropper.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/cute-alert.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/data-map/d3.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/data-map/data-maps-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/data-map/datamaps.all.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/data-map/topojson.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/data-table/bootstrap-editable.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/data-table/bootstrap-table-editable.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/data-table/bootstrap-table-export.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/data-table/bootstrap-table-resizable.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/data-table/bootstrap-table.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/data-table/colResizable-1.5.source.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/data-table/data-table-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/data-table/tableExport.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/datapicker/bootstrap-datepicker.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/datapicker/bootstrap-datepicker.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/datapicker/datepicker-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/datepicker/datepicker-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/datepicker/jquery-ui.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/detailsMainJsCodes.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/dropzone/dropzone.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/duallistbox/duallistbox.active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/duallistbox/jquery.bootstrap-duallistbox.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/e-payment.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/editable/bootstrap-datetimepicker.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/editable/bootstrap-editable.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/editable/jquery.mockjax.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/editable/mock-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/editable/moment.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/editable/select2.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/editable/xediable-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/form-validation/form-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/form-validation/jquery.form.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/form-validation/jquery.validate.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/google.maps/google.maps-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/icheck/icheck-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/icheck/icheck.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/input-mask/jasny-bootstrap.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/ionRangeSlider/ion.rangeSlider.active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/ionRangeSlider/ion.rangeSlider.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery-price-slider.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.maskedinput.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.meanmenu.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.payform.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.scrollUp.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.sticky.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/knob/jquery.knob.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/knob/knob-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/login.js">
+      <publishTime>03/19/2023 12:08:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/main.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/masking-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/menu_tabs.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/metisMenu/metisMenu-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/metisMenu/metisMenu.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/metisMenu/metisMenu.min.js.map">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/modal_search.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/morrisjs/home3-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/morrisjs/morris-active-pro.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/morrisjs/morris-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/morrisjs/morris.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/morrisjs/raphael-min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/multiple-email/multiple-email-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/notifications/Lobibox.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/notifications/notification-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/owl.carousel.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/password-meter/password-meter-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/password-meter/pwstrength-bootstrap.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/password-meter/zxcvbn.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/pdf/jquery.media.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/pdf/pdf-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/peity/jquery.peity.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/peity/peity-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/plugins.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/rangle-slider/jquery-ui-1.10.4.custom.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/rangle-slider/jquery-ui-touch-punch.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/rangle-slider/rangle-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/scrollbar/jquery.mCustomScrollbar.concat.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/scrollbar/mCustomScrollbar-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/select2/select2-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/select2/select2.full.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/selection.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/sparkline/jquery.charts-sparkline.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/sparkline/jquery.sparkline.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/sparkline/sparkline-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/summernote/summernote-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/summernote/summernote.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/tab.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/tawk-chat.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/touchspin/jquery.bootstrap-touchspin.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/touchspin/touchspin-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/tree-line/jstree.active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/tree-line/jstree.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/vendor/jquery-1.12.4.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/vendor/modernizr-2.8.3.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/vendor/modernizr-custom.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/wizard/jquery.steps.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/wizard/steps-active.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/js/wow.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css.map">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js.map">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/LICENSE">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.min.js">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.js">
+      <publishTime>03/17/2023 12:06:52</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.min.js">
+      <publishTime>03/17/2023 12:06:52</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/LICENSE.md">
+      <publishTime>03/17/2023 12:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.js">
+      <publishTime>03/17/2023 12:06:52</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.js">
+      <publishTime>03/17/2023 12:06:52</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.map">
+      <publishTime>03/17/2023 12:06:52</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/LICENSE.txt">
+      <publishTime>03/17/2023 12:06:52</publishTime>
+    </File>
+    <File Include="wwwroot/OrjinDestek.styles.css">
+      <publishTime>03/19/2023 15:00:47</publishTime>
+    </File>
+    <File Include="wwwroot/pdf/mamunur.pdf">
+      <publishTime>03/17/2023 12:06:52</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
