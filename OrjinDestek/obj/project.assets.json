@@ -3000,19 +3000,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alborz\\.nuget\\packages\\": {}
+    "C:\\Users\\akkaya famıly\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alborz\\source\\Repos\\OrjinDestek\\OrjinDestek\\OrjinDestek.csproj",
+      "projectUniqueName": "C:\\Users\\akkaya famıly\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\OrjinDestek.csproj",
       "projectName": "OrjinDestek",
-      "projectPath": "C:\\Users\\Alborz\\source\\Repos\\OrjinDestek\\OrjinDestek\\OrjinDestek.csproj",
-      "packagesPath": "C:\\Users\\Alborz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alborz\\source\\Repos\\OrjinDestek\\OrjinDestek\\obj\\",
+      "projectPath": "C:\\Users\\akkaya famıly\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\OrjinDestek.csproj",
+      "packagesPath": "C:\\Users\\akkaya famıly\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\akkaya famıly\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Alborz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\akkaya famıly\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
