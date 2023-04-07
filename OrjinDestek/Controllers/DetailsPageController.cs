@@ -9,6 +9,7 @@ using OrjinDestek.Services.TokenValidationService;
 using OrjinDestek.Services.UserService;
 using FluentEmail.Core;
 using FluentEmail.Smtp;
+using System.Security.Cryptography.Xml;
 
 namespace OrjinDestek.Controllers;
 
@@ -532,7 +533,7 @@ public class DetailsPageController : Controller
 	//UPDATE THE RECORD
 	[HttpPost]
 	public IActionResult UpdateTheRecord(int refNo, string proje, string destekTipi, string userEmail, string userTelNo, string rvzBilgisi,
-		string destekPersonel, string konu, string oncelik, string destekSekli, string durum, string istekler, string talepEden)
+		string destekPersonel, string konu, string oncelik, string destekSekli, string durum, string istekler, string talepEden, string dskBitisTarih)
 	{
 		if (userEmail.IsNullOrEmpty()) userEmail = "";
 		if (userTelNo.IsNullOrEmpty()) userTelNo = "";
@@ -549,8 +550,15 @@ public class DetailsPageController : Controller
 		int isKapali = -1;
 		if (!durum.IsNullOrEmpty())
 		{
-			if (durum.ToLower().Equals("açık")) isKapali = 0;
-			else if (durum.ToLower().Equals("kapalı")) isKapali = 1;
+			if (durum.ToLower().Equals("açık"))
+			{
+				isKapali = 0;
+			}
+
+			else if (durum.ToLower().Equals("kapalı")) 
+			{
+                isKapali = 1;
+            }
 		}
 		try
 		{
@@ -570,8 +578,13 @@ public class DetailsPageController : Controller
 				$" DECLARE @konuId INT;select @konuId=TB_DESTEK_KONU_ID from dbo.TB_DESTEK_KONU where TB_DESTEK_KONU_BASLIK = '{konu}' ";
 			_query +=
 				$" DECLARE @destekSekliId INT; SELECT @destekSekliId = TB_KOD_ID FROM TB_KOD WHERE DEGER='{destekSekli}' ";
+			if (durum.ToLower().Equals("kapalı"))
+            {
+                _query +=
+                    $"DECLARE @KapamaTarih DATETIME; SELECT @KapamaTarih =  GETDATE() ";
+            }
 			_query +=
-				$" update TB_DESTEK set DSK_PROGRAM_ID = @projeId , DSK_TALEP_SEBEP_ID = @destekTipiId , DSK_PERSONEL_ID = @perSonelId , DSK_KONU_ID = @konuId , DSK_DESTEK_TIPI_ID = @destekSekliId , DSK_KONU_BASLIK = '{konu}' , ";
+				$" update TB_DESTEK set DSK_PROGRAM_ID = @projeId , DSK_TALEP_SEBEP_ID = @destekTipiId , DSK_PERSONEL_ID = @perSonelId , DSK_KONU_ID = @konuId , DSK_DESTEK_TIPI_ID = @destekSekliId , DSK_GERCEKKAPANISTARIH = @KapamaTarih ,DSK_KONU_BASLIK = '{konu}' , ";
 			_query +=
 				$" DSK_GORUSULEN_KISI_ID = @gorusulenKisiId ,DSK_KAPALI = {isKapali} , DSK_ONCELIK_ID = {oncelikId} , DSK_ISTEKLER = '{istekler}' ,DSK_TELEFON = '{userTelNo}'  ,DSK_EPOSTA = '{userEmail}' , DSK_REVIZYON_ID = {rvzId} WHERE TB_DESTEK_ID = {refNo} ";
 

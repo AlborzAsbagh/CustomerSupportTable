@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\OrjinDestek",
+    "\\OrjinDestek\\Views",
+    "\\OrjinDestek\\Views\\Home"
   ],
-  "SelectedNode": "\\OrjinDestek.sln",
+  "SelectedNode": "\\OrjinDestek\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

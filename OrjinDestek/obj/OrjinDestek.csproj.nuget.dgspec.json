@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\akkaya famıly\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\OrjinDestek.csproj": {}
+    "C:\\Users\\akkaya famıly\\Source\\Repos\\orjinyazilim\\Orjin-Destek-Programi\\OrjinDestek\\OrjinDestek.csproj": {}
   },
   "projects": {
-    "C:\\Users\\akkaya famıly\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\OrjinDestek.csproj": {
+    "C:\\Users\\akkaya famıly\\Source\\Repos\\orjinyazilim\\Orjin-Destek-Programi\\OrjinDestek\\OrjinDestek.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\akkaya famıly\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\OrjinDestek.csproj",
+        "projectUniqueName": "C:\\Users\\akkaya famıly\\Source\\Repos\\orjinyazilim\\Orjin-Destek-Programi\\OrjinDestek\\OrjinDestek.csproj",
         "projectName": "OrjinDestek",
-        "projectPath": "C:\\Users\\akkaya famıly\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\OrjinDestek.csproj",
+        "projectPath": "C:\\Users\\akkaya famıly\\Source\\Repos\\orjinyazilim\\Orjin-Destek-Programi\\OrjinDestek\\OrjinDestek.csproj",
         "packagesPath": "C:\\Users\\akkaya famıly\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\akkaya famıly\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\obj\\",
+        "outputPath": "C:\\Users\\akkaya famıly\\Source\\Repos\\orjinyazilim\\Orjin-Destek-Programi\\OrjinDestek\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
