@@ -550,12 +550,12 @@ public class DetailsPageController : Controller
 		int isKapali = -1;
 		if (!durum.IsNullOrEmpty())
 		{
-			if (durum.ToLower().Equals("açık"))
+			if (durum.ToLower().Equals("açik"))
 			{
 				isKapali = 0;
 			}
 
-			else if (durum.ToLower().Equals("kapalı")) 
+			else if (durum.ToLower().Equals("kapali")) 
 			{
                 isKapali = 1;
             }
@@ -571,18 +571,23 @@ public class DetailsPageController : Controller
 			_query +=
 				$" DECLARE @destekTipiId INT; SELECT @destekTipiId = TB_KOD_ID FROM TB_KOD WHERE DEGER='{destekTipi}' ";
 			_query +=
-				$"DECLARE @gorusulenKisiId INT;SELECT @gorusulenKisiId = TB_CARI_PERSONEL_ID FROM TB_CARI_PERSONEL WHERE CPS_ISIM='{talepEden}'";
+				$" DECLARE @gorusulenKisiId INT;SELECT @gorusulenKisiId = TB_CARI_PERSONEL_ID FROM TB_CARI_PERSONEL WHERE CPS_ISIM='{talepEden}'";
 			_query +=
 				$" DECLARE @perSonelId INT; SELECT @personelId = TB_CRM_USER_ID FROM TB_CRM_USER WHERE USER_NAME='{destekPersonel} '";
 			_query +=
 				$" DECLARE @konuId INT;select @konuId=TB_DESTEK_KONU_ID from dbo.TB_DESTEK_KONU where TB_DESTEK_KONU_BASLIK = '{konu}' ";
 			_query +=
 				$" DECLARE @destekSekliId INT; SELECT @destekSekliId = TB_KOD_ID FROM TB_KOD WHERE DEGER='{destekSekli}' ";
-			if (durum.ToLower().Equals("kapalı"))
+			if (durum.ToLower().Equals("kapali"))
             {
                 _query +=
-                    $"DECLARE @KapamaTarih DATETIME; SELECT @KapamaTarih =  GETDATE() ";
+                    $" DECLARE @KapamaTarih DATETIME; SELECT @KapamaTarih =  GETDATE() ";
             }
+			else
+			{
+				_query +=
+					$" DECLARE @KapamaTarih DATETIME; SELECT @KapamaTarih =  null ";
+			}
 			_query +=
 				$" update TB_DESTEK set DSK_PROGRAM_ID = @projeId , DSK_TALEP_SEBEP_ID = @destekTipiId , DSK_PERSONEL_ID = @perSonelId , DSK_KONU_ID = @konuId , DSK_DESTEK_TIPI_ID = @destekSekliId , DSK_GERCEKKAPANISTARIH = @KapamaTarih ,DSK_KONU_BASLIK = '{konu}' , ";
 			_query +=

@@ -3000,23 +3000,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\akkaya famıly\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Alborz\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\akkaya famıly\\Source\\Repos\\orjinyazilim\\Orjin-Destek-Programi\\OrjinDestek\\OrjinDestek.csproj",
+      "projectUniqueName": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\OrjinDestek.csproj",
       "projectName": "OrjinDestek",
-      "projectPath": "C:\\Users\\akkaya famıly\\Source\\Repos\\orjinyazilim\\Orjin-Destek-Programi\\OrjinDestek\\OrjinDestek.csproj",
-      "packagesPath": "C:\\Users\\akkaya famıly\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\akkaya famıly\\Source\\Repos\\orjinyazilim\\Orjin-Destek-Programi\\OrjinDestek\\obj\\",
+      "projectPath": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\OrjinDestek.csproj",
+      "packagesPath": "C:\\Users\\Alborz\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\akkaya famıly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alborz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3024,6 +3020,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3094,7 +3091,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }
