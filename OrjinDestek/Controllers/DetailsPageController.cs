@@ -550,12 +550,12 @@ public class DetailsPageController : Controller
 		int isKapali = -1;
 		if (!durum.IsNullOrEmpty())
 		{
-			if (durum.ToLower().Equals("açik"))
+			if (durum.ToLower().Equals("açık"))
 			{
 				isKapali = 0;
 			}
 
-			else if (durum.ToLower().Equals("kapali")) 
+			else if (durum.ToLower().Equals("kapalı")) 
 			{
                 isKapali = 1;
             }
