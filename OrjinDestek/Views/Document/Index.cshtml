@@ -1,0 +1,709 @@
+﻿@model dynamic
+@{
+	ViewData["Title"] = "Döküman";
+	ViewData["Token"] = Model.token;
+}
+
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"]</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- favicon
+	============================================ -->
+	<link rel="shortcut icon" type="image/x-icon" href="img/email.png">
+	<!-- Google Fonts
+	============================================ -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+	<!-- Bootstrap CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Bootstrap CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- owl.carousel CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.css">
+	<link rel="stylesheet" href="css/owl.transitions.css">
+	<!-- animate CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- normalize CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<!-- meanmenu icon CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/meanmenu.min.css">
+	<!-- main CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- educate icon CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/educate-custon-icon.css">
+	<!-- morrisjs CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/morrisjs/morris.css">
+	<!-- mCustomScrollbar CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/scrollbar/jquery.mCustomScrollbar.min.css">
+	<!-- metisMenu CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/metisMenu/metisMenu.min.css">
+	<link rel="stylesheet" href="css/metisMenu/metisMenu-vertical.css">
+	<!-- calendar CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/calendar/fullcalendar.min.css">
+	<link rel="stylesheet" href="css/calendar/fullcalendar.print.min.css">
+	<!-- x-editor CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/editor/select2.css">
+	<link rel="stylesheet" href="css/editor/datetimepicker.css">
+	<link rel="stylesheet" href="css/editor/bootstrap-editable.css">
+	<link rel="stylesheet" href="css/editor/x-editor-style.css">
+	<!-- style CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- responsive CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- Alert Css -->
+	<link rel="stylesheet" href="css/alert.css" />
+	<!-- Documnet Css -->
+	<link rel="stylesheet" href="AppCss/Document/document.css" />
+
+	<!-- Accordio Bootstrap-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+</head>
+
+
+<body>
+	<div class="main-container">
+		<center><h4>Kurulum - (04.07.2023 v.1)</h4></center>
+		<div class="accordion accordion-flush" id="accordionFlushExample">
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingOne">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+						1. Sıfırdan manuel Kurulum
+					</button>
+				</h2>
+				<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body"> 
+						•	KURULUM CD HAZIRLAMA <br/>
+						•	Kurulum işlerinden önce kurulum CD oluşturulur. CD içine raporlar, program ile ilgili dosyalar, DLL, resim ve doküsman klasörü, Image klasörü, Güvenlik anahtarı driverlari, programın veri tabanı konulur. (17nolu madde)<br/>
+						•	Kurulum yapılacak firmadan kurulumun yapılacağı serverdan bağlantı istenir.<br/>
+						•	Kurulum için ilk olarak CD içindeki dosyalar program nereye kurulacak ise “Orjin” isimli bir klasör açılır ve oraya kopyalanır.<br/>
+						•	Daha sonra CD ile beraber gönderilen Güvenlik anahtarı sunucuya takılır.<br/>
+						•	Daha sonra g. anahtar driverları kurulur. Daha sonra exe klasörünün içindeki “nethasp.ini” dosyasını açıyoruz ve için deki “NH_SERVER_ADDR = …;” bölüme güvenlik anahtarının takili olduğu bilgisayarın veya sunucunun IP adresini yazıyoruz ve kaydediyoruz.<br/>
+						•	Daha sonra eğer sql kurulu ise veri tabanı mdf dosyaları veri tabanları attach işlemi gerçekleştirilir. Eğer sql kurulu değil ise kurulumu yapılır. Veri tabanları kurulum işlemleri ve attach işlemleri tamamlanınca programın bulunduğu klasöre ‘yazma ve okuma yetkileri’(19 maddelere bak) verilir paylaşıma açılır.<br/>
+						•	Daha sonra exe klasörü içindeki “bağlantı.exe” çalıştırılır. “Sunucu adını seçin veya girin” bölümünden SQL Server bilgileri seçilir. “SQL Server Bağlantı Şekli” kısmından “Belirli bir kullanıcı adı ve parolası kullan” veya “Windows NT tümleşik güvenliğini kullan” seçilir (“Belirli bir kullanıcı adı ve parolası kullan” seçeni seçilmesi daha iyi olur diğer seçenek seçilirse clientlerde sorun çıkarabilir eğer “Belirli bir kullanıcı adı ve parolası kullan” seçilirse SQL Server “sa” kullanıcı adı şifresi yada firmanın oluşturduğu kullanıcı ve şifresi yazılır. “İşlemci Türü” kısmından 32 bit ise 32 bit 64 bit ise 64 bit seçilir. “Veri tabanını seçin veya girin” kısmından kurulan program OMEGA ise “OMEGA_MASTER”, PBTPRO ise “PBTPRO_MASTER”, ATSPRO ise “ATSPRO” veri tabanı seçilir.<br/>
+						•	Daha sonra bilgileri doğru olup olmadığını test için “Veri tabanını seçin veya girin” kısmının yanındaki buton tıklanır. Doğru ise “Kaydet ve Kapat” butonu tıklanır.<br/>
+						•	Exe klasöründe Bağlantı.ini isimli bir dosya oluşacak programın çalışması için bu dosyanın adını programın adı yapılır. (OMEGA ise OMEGA.ini gibi) <br/>
+						•	Daha sonra exe klasörünün içine CRM ile firma için oluşturduğumuz Lisans.ini (Hatalar dökümanı 24. madde) dosyasını atıyoruz ve programı çalıştırıyoruz. Program yükleme işlemi tamamlamış olacağız.<br/>
+						•	Şimdi program içindeki ayarlamaları yapılması gerekmektedir. Program açıldıktan sonra “Yönetim Paneli” kısmından “Yönetim (Anahtar simgesi)” tıklıyoruz. Gelen menüden “Kontrol Paneli” tıklıyoruz gelen ekrandan kullanıcı ve şifresi giriyoruz ve giriş yapıyoruz. (Standart olarak ORJIN kullanıcı adı kullanılır şifre kısmı boş bırakılır. )<br/>
+						•	Gelen ekrandan “Kurulum işlemleri” bölümünden “işletmeler” tıklıyoruz. Orjin Yazılım olarak acılan kayıt bilgileri kurulum yaptığımız firma olarak değiştiriyoruz ve resim ekleme işlemini yapıyoruz ve ekranı kapatıyoruz.<br/>
+						•	Duruma göre kullanıcı tanımı yapıyoruz. Daha sonra programa geri dönüş yapıyoruz. “Yönetim (Anahtar simgesi)” tıklıyoruz ve “parametreler” kısmına giriyoruz. “Genel Parametreler” kısmından “Doküman Yolu” ve “Resim Yolu” nu belirtiyoruz. Aynı işlemi “Raporlar” ve “Formlar” kısmına uyguluyoruz. (bu klasörlerin yazma ve okuma yetkisi olmalıdır.)<br/>
+						•	Genel program kontrolünden sonra kurulum işlemleri tamamlanmış olacaktır. Program açılısında firmanın logosunu yüklemek için “Image” klasörünün içine firmanın logosunu “ana_ekran_logo” (uzantısı PNG olmalıdır.) isminde atmamız yeterli olacaktır.<br/>
+
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingTwo">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+						2. Terminal Kurulum
+					</button>
+				</h2>
+				<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						<strong>a) Local network</strong> <br/>
+						Programın bulunduğu ‘Orjin’ isimli klasör paylaşıma açılır. Daha client bilgisayardan ağdan ‘Orjin’ klasörüne ulaşılır ve exe dosyasından programın exesinin kısa yolu masaüstüne gönderilir. Program çalıştırılır. <br/>
+						<strong>b) Uzak bağlantı </strong> <br/>
+						Bizim herhangi bir işlem yapmamıza gerek yoktur. Bilgi işleme kullanıcı sayısı kadar kullanıcı oluşturmasını iletiyoruz.
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingThree">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+						3. Otomatik Kurulum
+					</button>
+				</h2>
+				<div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+
+						• Kurulum Programının içinde “D:\Kurulum\Kurulum\Omega\EXE” adresine programın son versiyonunu yüklüyoruz.<br/>
+						• En Güncel SQL scriptini hazırlıyoruz. Burada dikkat etmemiz gereken konu Sql scriptinin ismi oluyor. (omega_bos-V3.6.1-K-.sql) isminin V ile başlayan kısımda programın versiyonu ve versiyondan sonra –K ise kurulum scripti olduğunu belirtir.<br/>
+						• Programı çalıştırıyoruz. (D:\Kurulum\Kurulum\Kurulum\bin\Debug) klasöründe (Kurulum.exe)(bu işlemimüşterinşn serverinde gerçekleştiriyor. )<br/>
+						<img src="~/img/otomatik-kurulum-photo.png" />
+						• SQL script dosyasını oluşturduğumuz SQL scriptini seçiyoruz. <br/>
+						• SQL Server Schema bölümünden SQL schemamızı seçiyoruz veya yazıyoruz. <br/>
+						• Programın Yükleme Yolu, Data Yükleme Yolu, Form Yolu, Doküman Yolu, Rapor Yolu, Resim Yolu adreslerini girdikten sonra YÜKLE buttonuna basınca program otomatik olarak yükleme işlemini yapar. <br/>
+
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingFour">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+						4. Aktarım
+					</button>
+				</h2>
+				<div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						Yeni bir firmaya aktarım yapılacaksa eğer aktarım sıralaması şu “lokasyon, makine, stok kartı” şekilde yapılmalıdır. Aktarım işlemleri aşağıdaki gibidir.<br/>
+
+						• Firmadan gelen Excel dosyasını “Excel 97-2003 Çalışma Kitabı” olarak kaydediyoruz.<br/>
+						• Bizdeki ORJIN_AKTARIM veritabanının scriptini oluşturup müşterinin sqlinde önce ORJIN_AKTARIM adında veritabanı oluşturup sonra o scripti çalıştırıyoruz.<br/>
+
+						• Excel dosya formatını düzenlemesini yaptıktan sonra excel dosyasını “ORJIN_AKTARIM” veri tabanına import ediyoruz.<br/>
+						<img src="~/img/aktarim-photo.png"/>
+						• Import işlemi tamamlandıktan sonra aktarmış olduğumuz tabloyu “ORJIN_AKTARIM” veri tabanında bulunan “TB_AKTARIM_...(Ne aktarımı yapıyor isek o tablo ismi )” içine insert ediyoruz.
+						• Daha sonra “ORJIN_AKTARIM” veri tanında bulunan stored procedureslerden ne aktarımı yapıyorsak o procedure çalıştırıyoruz. (Aktarım OMEGA için yapılacaksa SPO başlayanı, PBTPRO içinse SPP ile başlıyanı çalıştırıyoruz.)
+
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingFive">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+						5. Program Güncelleme İşlemi
+					</button>
+				</h2>
+				<div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body"> 
+						Güncelleme yapılacak programın güncel versiyonu hazırlanacak. \\192.168.1.6\Paylasim\KURULUM VE GÜNCELLEME <br/>
+						• Daha sonra hazırlamış olduğumuz güncelleme dosyalarını müşteriye gönderiyoruz. Daha sonra güncelleme işlemine başlamadan önce program ve veri tabanı yedeklerini alıyoruz. Göndermiş olduğumuz güncelleme dosyasını eski versiyon ile değiştiriyoruz. (exe değiştiriliyor.)<br/>
+						• Daha sonra SQL Server açıyoruz. Güncel versiyon için hazırlanmış scripts dosyalarını aşağıdaki sıra ile çalıştırıyoruz. (Sıralama Önemli!!)<br/>
+						• SQL_TABLE_SCRIPT_... (Program versiyonu kontrol edilir ve program versiyonundan sonrakiler çalıştırılır.)<br/>
+						• SQL_VIEW_SCRIPT<br/>
+						• SQL_FUNCTION_SCRIPT<br/>
+						• SQL_PROCEDURE_SCRIPT<br/>
+						• SQL_TRIGGER_SCRIPT<br/>
+						Program içi kontrollerimizden sonra güncelleme işlemini tamamlamış oluyoruz. Kurulum sonrası kontrol ve testler mutlaka yapılmalıdır.<br/>
+
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingSix">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+						6. İlk Kurulumda Server ve Clientler İçin Tarih Ayarları
+					</button>
+				</h2>
+				<div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						Denetim masasını açıyoruz. Denetim masasından “Tarih ve Saat” ayarlarına tıklıyoruz. 
+						Gelen pencereden “Tarih ve Saati değiştir…” tıklıyoruz. Daha sonra gelen pencereden 
+						“Takvim ayarlarını değiştirin” na tıklıyoruz. Karşımıza iki tane ekran geliyor üsteki ekranı kapatıyoruz. 
+						Daha sonra “Biçimler” sekmesindeki ayarlar aşağıdaki resimdeki gibi ayarlıyoruz.
+						<img src="img/server-client-1-photo.png"/>
+						Daha sonra ”Konum” sekmesindeki ayarlamaları da aşağıdaki resim deki gibi ayarlıyoruz.
+						<img src="img/server-client-2-photo.png" />
+						Son olarak da “Yönetimsel” sekmesindeki “Unicode olmayan programların dili” kısmındaki ayarları da aşağıdaki gibi resimdeki gibi ayarlıyoruz.
+						<img src="img/server-client-3-photo.png" />
+						Bu ayarları bütün clientler ve server a uyguluyoruz. Programdaki alınan bütün tarihi hataları bu şekilde düzenlenmiş olacağız.
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingSeven">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+						7. Güvenlik Anahtarları Driver Kurulumu (Güvenlik anahtarının takılı olduğu bilgisayar )
+					</button>
+				</h2>
+				<div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						Güvenlik anahtarının çalışabilmesi için iki adet driver ihtiyaç duymaktadır. Birincisi “LMsetup” setupdur. İkincisi ise “HASPUserSetup” setupdur.<br/>
+						<strong>1) “LMsetup” kurulumu</strong> <br/>
+						a) Setup dosyasını çalıştırıyoruz. <br/>
+						b) Gelen ekrandan “U.S. English” seçiyoruz ve ok butonuna tıklıyoruz. <br/>
+						c) Gelen ekrandan “Next >” tıklıyoruz.<br/>
+						d) Lisans sözleşmesi penceresi geliyor oradan da “I accept the license agreement” seçiyoruz ve “Install >” a tıklıyoruz.<br/>
+						e) Sonra yeniden “Next >” tıklıyoruz ve bunu birkaç kez daha uyguluyoruz.<br/>
+						f) En son gelen ekrandan “Finish” seçiyoruz ve kurulum işlemi tamamlamış oluyoruz.<br/>
+						<strong>2) “HASPUserSetup” kurulumu</strong><br/>
+						a) Setup dosyasını çalıştırıyoruz.<br/>
+						b) Gelen ekrandan “Next >” tıklıyoruz.<br/>
+						c) Lisans sözleşmesi penceresi geliyor oradan da “I accept the license agreement” seçiyoruz ve “Next >” a tıklıyoruz.<br/>
+						d) Sonra yeniden “Next >” tıklıyoruz ve kurulum işlemini yapıyor.<br/>
+						e) En son gelen ekrandan “finish” diyoruz ve işlem tamamlanıyor.<br/>
+
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingEghit">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEghit" aria-expanded="false" aria-controls="flush-collapseEghit">
+						8. Müşteriler ile Uzak Bağlantı Kurma
+					</button>
+				</h2>
+				<div id="flush-collapseEghit" class="accordion-collapse collapse" aria-labelledby="flush-headingEghit" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						Müşterilere genelde uzak bağlantı ile destek vermekteyiz. Bunun için bazı uzak bağlantı programları kullanıyoruz. Bunlar TeamViewer 6(bizim lisanslı programımız.), Teamviewer 11, Ammyy, Alpemix dir. Kullanıcılardan bağlanmak için ID ve Şifre istiyoruz. Bu şifrelerle bağlanıyoruz ve işlemleri gerçekleştiriyoruz. Sadece Ammyy de sadece ID bulunuyor ve kullanıcının bağlantıyı onaylaması gerekiyor. Bazı müşteride VPN ile bağlanıyoruz bunlarla ilgili olarak ta \\192.168.1.6\Paylasim\Müşteri vpn klasörümüzde nasıl bağlanacağız konusunda bilgiler bulunmaktadır.
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingNine">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+						9. Firma Lisans Bilgilerini Oluşturma ve Modül Ekleme (CRM ‘e)
+					</button>
+				</h2>
+				<div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						• Bu işlem CRM programı üzerinden yapılmaktadır. CRM açılır “Lisans Yönetimi” tıklanır. <br/>
+						• Daha sonra yeni müşteri ise bilgileri öğrenilir ve cari listesinden firma bulunur. Firma bulunduktan sonra “Lisans Tanımı” bölümüne sağ tık ekle diyoruz.<br/>
+						• Daha sonra “Lisans Bilgileri” bölümünde lisans tanımı bölümüne program ismini yazıyoruz. Sonra aşağıdaki combobox tan program adını seçiyoruz.<br/>
+						• Daha sonra “Hasp key” bölümünden seri numarası oluştur diyoruz. Kilit tipi bölümünden de eğer program 1 kullanıcılı ise “COUNTER” birden fazla ise “NET” seçiyoruz. Bağlantı sayısı bölümüne de lisans sayısını yazıyoruz.<br/>
+						• Daha sonra “Lisans Kısıtlamaları” bölümünden “Kullanıcı Sayısı” kısmına lisans sayısını yazıyoruz. “Lisans Bitiş Tarihini” boş bırakılıyor. “Çalışacağı Gün Sayısı” için bilgi alıyoruz ve ona göre bilgi yazıyoruz.<br/>
+						• Daha sonra “Kurulum sekmesine geçiyoruz oradan “kurulum tarihi” ve “programa son giriş tarihi” (buraya oluşturduğumuz tarihi yazmamız yeterli) belirtiyoruz ve kaydet diyoruz.<br/>
+						• Daha sonra “Lisans Kısıtlamaları” sekmesinin yanındaki program ismine tıklıyoruz ve firma sayısını yazıyoruz kaydet diyoruz.<br/>
+						• Daha sonra “Modüller” bölümünden listeye sağ tık ekle diyoruz. Gelen pencereden bulunması gereken modülleri seçiyoruz. (OMEGA için Doküman, Lastik, yakıt PBTPRO için Doküman, Yardım masası, ATSPRO için Doküman modülü default olarak ekliyoruz.) Kaydet diyoruz. ATSPRO için “ATS Pro” sekmesinden “Araç Sayısı” bölümüne 9999 yazıyoruz. Böylece Firma için lisans bilgileri oluşturulmuş olduk.<br/>
+
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingTen">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+						10. Güvenlik Anahtarı Yazma (Yeni)
+					</button>
+				</h2>
+				<div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						Güvenlik anahtarı yazma işlem için “Vendor Center” yazılımını kullanıyoruz. Güvenlik Anahtarı yazma işlemleri aşağıdaki gibidir. İşlemlere başlamadan önce master ve güvenlik anahtarı bilgisayarı takılır.<br/>
+						• Vendor Center çalıştırıyoruz.<br/>
+						• Gelen pencereden ToolBox tıklıyoruz.<br/>
+						• Hasp HL ToolBox karşımıza geliyor.<br/>
+						• Solda bulunan listeden Session -> hasp_login tıklıyoruz.<br/>
+						• Daha sonra “Vendor code” kontrol ediyoruz eğer sonu demoma.hvc ile bitiyorsa … tıklıyoruz ve OCIAT.hvc seçiyoruz.<br/>
+						• Daha sonra Execute tıklıyoruz.<br/>
+						• Encode/decode -> hasp_encrypt tıklıyoruz.<br/>
+						• Gelen kışında “Size” eğer 1 kullanıcılı güvenlik anahtarı yazılacaksa 48 1 den fazla kişi için 200 yazıyoruz.<br/>
+						• CRM -> Lisans Yönetimi -> Firma seçiyoruz -> Lisans tanımdan program adı -> Anahtara yazılacak değeri kopyalıyoruz. ( SN12222;KS5;FS1;MDADFLNSTY;) Kopyaladığımız bilgiyi ekranın sağ üst köşesine yapıştırıyoruz.<br/>
+						• Daha sonra execute tıklıyoruz ve yapıştırdığımız bilgi otomatikman makine koduna dönüştü ve dönüşen kodu kopyalıyoruz.<br/>
+						• Daha sonra Vendor centerdan factory açıyoruz.<br/>
+						• Gelen ekrandan Batches -> Orders -> Orders sağ tık New Order tıklıyoruz.<br/>
+						• Karşımıza Order Editor ekranı geliyor.<br/>
+						• Batchyi OCIAT olarak seçiyoruz.<br/>
+						• Name bölümüne program ismini yazıyoruz.<br/>
+						• Features bölümündeki listbox sağ tık add feature tıklıyoruz gelen ekrandan program ismini seçiyoruz.<br/>
+						• Sonra gelen ekrandan Hasp Lisans From bölümünden tek kişilik güvenlik anahtarı oluşturuyorsak Counter bir den çok ise Net seçiyoruz.<br/>
+						• Users bölümüne kullanıcı sayısını yazıyoruz ve ok diyoruz.<br/>
+						• Daha sonra memory kısmına geliyoruz ve length bölümüne tek ise 48 birden çok ise 200 yazıyoruz.<br/>
+						• Sonra …… kısmının başına tıklıyoruz ve kopyaladığımız makine kodunu yapıştırıyoruz.<br/>
+						• Daha sonra sol üst köşedeki kaydette tıklıyoruz ve kaydet butonunun yanındaki execute order butonuna tıklıyoruz.<br/>
+						• Yazman işlemi başlıyor ve bittikten sonra ok butonuna tıklıyoruz.<br/>
+
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingEleven">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+						11. Güvenlik Anahtarı(Dongle) Güncelleme İşlemi
+					</button>
+				</h2>
+				<div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						Güvenlik anahtarı güncelleme işlemi güvenlik anahtarı kullanım süresini kaldırmak, yeni kullanıcı veya modül eklemek gibi işlemler yapılacaksa uyguluyoruz. Bu işlemi yapabilmemiz için güvenlik anahtarının mutlaka Server işletim sistemi olmayan bir PC’ de takılı olmalıdır.<br/>
+						• Güvenlik anahtarını Server işletim sistemi olmayan bir PC takılmasını ve bize o bilgisayardan uzak bağlantı verilmesini sağlıyoruz.<br/>
+						• Güvenlik anahtarının aktif olabilmesi için güvenlik anahtarı driver yüklüyoruz.<br/>
+						• Daha sonra \\192.168.1.6\Paylasim\KURULUM VE GÜNCELLEME\GÜVENLİK ANAHTARI DRİVERLARI\HaspGuncelleme adresinde bulunan güvenlik anahtarı güncelleme programını bağlantı aldığımız bilgisayara gönderiyoruz ve programı çalıştırıyoruz. (programı gönderirken müşteri hangi programı kullanıyorsa onun ismine göre hangisi gönderiyoruz.)<br/>
+						• Daha sonra gelen ekranda PC güvenlik anahtarını tanımış ise ‘Güvenlik anahtarına bağlantı sağlandı.’ Uyarısını veriyor. Bu uyarı görüyor isek ‘-> Lisans Bilgisini Dışarı Ver’ butonuna tıklıyoruz.<br/>
+						• Karşımıza ‘Güvenlik anahtarı güncelleme bilgisi …Lisans.c2v dosyasına kaydedildi.’ Diye bir uyarı mesajı çıkmaktadır.<br/>
+						• Daha sonra oluşan Lisans.c2v dosyasını kendi bilgisayarımıza alıyoruz.<br/>
+						• Daha sonra CRM üzerinden yapılacak işleme göre firma bilgilerini değiştiriyoruz.<br/>
+						• Daha sonra Vendor Center programını çalıştırıyoruz ve ToolBox tıklıyoruz.<br/>
+						• Hasp HL ToolBox karşımıza geliyor.<br/>
+						• Solda bulunan listeden Session -> hasp_login tıklıyoruz.<br/>
+						• Daha sonra “Vendor code” kontrol ediyoruz eğer sonu demoma.hvc ile bitiyorsa … tıklıyoruz ve OCIAT.hvc seçiyoruz.<br/>
+						• Daha sonra Execute tıklıyoruz.<br/>
+						• Encode/decode -> hasp_encrypt tıklıyoruz.<br/>
+						• Gelen kışında “Size” eğer 1 kullanıcılı güvenlik anahtarı yazılacaksa 48 1 den fazla kişi için 200 yazıyoruz.<br/>
+						• CRM -> Lisans Yönetimi -> Firma seçiyoruz -> Lisans tanımdan program adı -> Anahtara yazılacak değeri kopyalıyoruz. ( SN12222;KS5;FS1;MDADFLNSTY;) Kopyaladığımız bilgiyi ekranın sağ üst köşesine yapıştırıyoruz.<br/>
+						• Daha sonra execute tıklıyoruz ve yapıştırdığımız bilgi otomatikman makine koduna dönüştü ve dönüşen kodu kopyalıyoruz.
+						• Daha sonra Vendor centerdan factory açıyoruz.<br/>
+						• Daha sonra sağ üst köşeden Tools -> View c2v file tıklıyoruz.<br/>
+						• Gelen ekranda firmadan aldığımız Lisans.c2v dosyasını okutuyoruz.<br/>
+						• Karşımıza gelen ekrandan sol alttan Create Update tıklıyoruz.<br/>
+						• Gelen ekrandaki listede bulunan kayda çift tıklıyoruz.<br/>
+						• Gelen ekran kullanıcı sayısı arttırılacaksa Users bölümündeki sayıyı değiştiriyoruz ve ok butonuna tıklıyoruz.<br/>
+						• Daha sonra Memory kısmına geçiyoruz ve sağ bölümde bulunan makine kodunu Toolbox’tan kopyaladığımız kod ile değiştiriyoruz.<br/>
+						• Daha sonra sağ üst köşedeki kaydet butonuna tıkladıktan sonra yanındaki Execute Order tıklıyoruz.<br/>
+						•C:\Program Files (x86)\Aladdin\HASP HL\VendorTools\VendorCenter\v2c adresine v2c uzantılı bir dosya oluşturacaktır. Bu oluşan dosyayı firmaya geri gönderiyoruz ve güncelleme programından ‘Lisans bilgisini güncelle’ tıklıyoruz ve v2c uzantılı dosyayı okutuyoruz ve Lisansları sıfırlayıp işlemi tamamlıyoruz.<br/>
+
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingTwlv">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwlv" aria-expanded="false" aria-controls="flush-collapseTwlv">
+						12. Veri Tabanı Eşitleme İşlemi
+					</button>
+				</h2>
+				<div id="flush-collapseTwlv" class="accordion-collapse collapse" aria-labelledby="flush-headingTwlv" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body"> 
+						• Veri tabanı eşitleme işlemini bizde bulunan güncel veri tabanını müşterideki eski veri tabanına entegre edebilmek için iki veri tabanı arasındaki farklılıkları görmemizi sağlar. <br/>
+						• Bu işlemi “SQL Compare 10” programı yardımı ile gerçekleştiriyoruz. Programı açıyoruz. Karşımıza “New Project” isim pencere geliyor. “Source” kısmında “Backup” kısmını işaretleyerek elimizde bulunan en güncel veri tabanını “Add backup set files…” kısmına tıklayarak listeye ekliyoruz. “Target” kısmında “Backup” kısmını işaretleyerek müşteriden aldığımız veri tabanını “Add backup set files…” kısmına tıklayarak listeye ekliyoruz. “-> Compare Now” butonuna tıklıyoruz. <br/>
+						• Program eşitleme işlemine başlıyor. Tamamlanınca karşımıza gelen ekranın sağ kısmından sadece “table” kısmını tıklıyoruz. <br/>
+						• Eşit olamayan tabloları ve müşterini veri tabanından olmayan tablolar listelenecek. Listelenen kısımdan ilk sıradaki seçerek “ -> Deployment Wizard..” tıklıyoruz. <br/>
+						• Gelen Ekrandan “Next >” butonuna tıklıyoruz. “Deploy all dependencies (Recommended)” tikli ise tikini kaldırıyoruz ve “Next >” butonuna tıklıyoruz. Gelen ekrandan “Deployment Script” kısmına tıklıyoruz.<br/>
+						• Gelen ekrandaki kodu kopyalayıp müşterinin veri tabanında çalıştırıyoruz ve bu işlemi listedeki diğer bütün tablolar için tekrarlıyoruz. <br/>
+
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingThirteen">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThirteen" aria-expanded="false" aria-controls="flush-collapseThirteen">
+						13. Alarm Servis Kurulumu
+					</button>
+				</h2>
+				<div id="flush-collapseThirteen" class="accordion-collapse collapse" aria-labelledby="flush-headingThirteen" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						Alarm servis program içerisinde hatırlatılmasını isteğimiz verileri bize günlük, haftalık, aylık vb. gibi dönemlerde mail yoluyla hatırlatan programdır. Kurulum adımları şu şekildedir.<br/>
+						• Alarm servisin veri tabanını SQL Servera yüklüyoruz. <br/>
+						• Daha Sonra AlarmService Kurulum\Veritabanı\sql clr başka sunucuya kurulması içindeki “işlem basamakları” text dosyasındaki adımları izliyoruz. <br/>
+						• Daha sonra alarm kurulum klasörünün içindeki “AlarmService Veritabanı Ayarı” klasöründeki bağlantı.exe çalıştırıyoruz ve veri tabanı ayarlarını yapıyoruz. <br/>
+						• Daha sonra AlarmService.exe çalıştırıyoruz ve karşımıza Kullanıcı girişi ekranı geliyor. Kullanıcı adı : ORJIN şifreyi boş bırakıyoruz. <br/>
+						• Daha sonra program açıldıktan sonra Ayarlar -> Program ayarları tıklıyoruz ve raporların hangi klasörden kullanılacağını belirtiyoruz ve kaydet diyoruz. <br/>
+						• Daha sonra Ayarlar -> Mail Servis Ayarlarına tıklıyoruz ve gelen ekrana mail servis ayarlarını yapıyoruz. <br/>
+						• Daha sonra Tanımlar -> Mail tanımları tıklıyoruz ve mailler kime gidecekse onların mail adresini yazıyoruz. <br/>
+						• Daha sonra Olaylar kısmına sağ tık -> Yeni Kayıt -> Uyarı mesajı tıklıyoruz.<br/>
+						• Gelen ekrandan Genel bölümünde gerekli bilgileri belirtiyoruz.<br/>
+						• Daha sonra SQL bölümüne müşterinin isteğine göre hazırladığımız sorguyu başına USE veri tabanı adı (USE OMEGA_1) yazılarak sorgu çalıştırılır.<br/>
+						• Daha sonra Mail Formatı kısmına geliyoruz konu kısmına mailin konusunu yazıyoruz ve mail formatı oluştura tıklıyoruz ve gönderilecek mail görüntüsünü ayarlıyoruz.<br/>
+						• Daha sonra Mail Listesi bölümüne maili kime gönderilecek ise onları liste ekliyoruz.<br/>
+						• Daha sonra kaydet diyoruz ve alarm servis üzerindeki ayarlamalarımız tamamlanmış oluyor.<br/>
+						• “AlarmService_SystemTray.exe” yönetici olarak çalıştırıyoruz ve Alarm servis sistemi kurulumu tamamlanmış oluyoruz.<br/>
+
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingFourteen">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFourteen" aria-expanded="false" aria-controls="flush-collapseFourteen">
+						14. SQL Monitör Kullanımı
+					</button>
+				</h2>
+				<div id="flush-collapseFourteen" class="accordion-collapse collapse" aria-labelledby="flush-headingFourteen" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						SQL monitör programlar içindeki hangi bölümde hangi SQL çalışıyor onu kontrol etmemizi sağlıyor. SQL monitörü açmak için programın sağ alt köşesine çift tıklamamız yeterlidir. SQL monitörü açıldıktan sonra hangi SQL kontrol edilecekse program içinden o bölüme girmemiz yeterlidir. Kontrol edilecek ekran programın iç kısımlarında ise SQL monitörü duraklatıp kontrol edilecek bölüme geldikten sonra yeniden başlatabiliriz veya açık konumda bırakıp kontrol edilecek ekrana gelmeden listeyi temizleye biliriz.
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingFifteen">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFifteen" aria-expanded="false" aria-controls="flush-collapseFifteen">
+						15. Kurulum ve Güncelleme Dosya Yerleri
+					</button>
+				</h2>
+				<div id="flush-collapseFifteen" class="accordion-collapse collapse" aria-labelledby="flush-headingFifteen" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body"> 
+						Kurulum ve güncelleme dosyalarımızın tamamı server üzerinde bulunan paylaşım klasöründe bulunmaktadır. Bu klasöre ulaşmak için Başlat -> Çalıştır -> \\192.168.1.6 -> Paylaşım -> KURULUM VE GÜNCELLEME adresinden kurulum ve güncelleme ile ilgili dosyalara erişebilirsiniz. \\192.168.1.6\Paylasim\KURULUM VE GÜNCELLEME
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingSixteen">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSixteen" aria-expanded="false" aria-controls="flush-collapseSixteen">
+						16. Güvenlik Anahtarı Süre Sınırlamaları
+					</button>
+				</h2>
+				<div id="flush-collapseSixteen" class="accordion-collapse collapse" aria-labelledby="flush-headingSixteen" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						Müşterilerimize kurulum cd hazırlanırken birde güvenlik anahtarı hazırlıyoruz. Bu güvenlik anahtarına güvenlik açısından gün veya tarih sınırlaması konulur. Süreyi tamamlanınca program biz yenilememiz sürece çalışmaz. Süre bitiminde programı açmaya çalıştığımızda program açılmadan direk kapanır. Bu süreyi içerden aldığımız bilgiye göre uzatırız veya kaldırırız. Eğer uzatılacaksa CRM’ den program kurulum tarihini bugüne çekiyoruz ve yeni bir lisans dosyası gönderiyoruz. Uzatılmayacak ise CRM deki belirtimiz süreyi kaldırıyoruz ve güvenlik anahtarı güncelleme programı ile güvenlik anahtarını güncelliyoruz.
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingSeventeen">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeventeen" aria-expanded="false" aria-controls="flush-collapseSeventeen">
+						17. Serverda kurulu olan programı client bilgisayara kurma nasıl olur?
+					</button>
+				</h2>
+				<div id="flush-collapseSeventeen" class="accordion-collapse collapse" aria-labelledby="flush-headingSeventeen" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						Client bilgisayara kısayol oluşturmak için, kısayolunu oluşturmak istediğimiz client bilgisayardan servera bağlanıyoruz. Daha sonra paylaşıma açtığımız program dosyasından exenin üstüne sağ tıklayıp masaüstüne kısayol oluştur diyoruz. Sonra veritabanı bağlantı ayarları tam ise(yani doğru ise) programa sorunsuz giriş giriş yapılıyor.
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingEghiteen">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEghiteen" aria-expanded="false" aria-controls="flush-collapseEghiteen">
+						18. Müşteri için oluşturulan raporu yükleme
+					</button>
+				</h2>
+				<div id="flush-collapseEghiteen" class="accordion-collapse collapse" aria-labelledby="flush-headingEghiteen" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						Müşteriler yaptığı işlemler için bir takım rapor oluşturulmasını isteyebilir. Yaptığımız raporları karşı tarafa yüklerken önce elimizde bulunan dosyayı karşı tarafın program exesinin bulunduğu yerde rapor diye bir dosya var, o rapor dosyasına bizim oluşturduğumuz rapor dosyasını kopyalıyoruz.Daha sonra veritabanındaki rapor dosyasına gidip oluşturduğumuz raporu hangi rapor grubunun altına koyacaksak o grubun Rapor Grup tablosundan IDsini alıp, Rapor tablosuna Rapor_Grup_ID alanına yazıyoruz.Sonra Rapor tablosundaki RPR_DOSYA_ADI alanına karşı tarafa kopyaladığımız raporun adını yazıyoruz. (Rapor adı nasılsa hiçbir değişiklik yapmadan aynı şekilde yazıyoruz.) Rapor tanımına ise Rapor dosya adını istediğimiz şekilde yazıp kaydediyoruz. <br/>
+						<strong>Not:</strong> Rapor çalıştırıldığında bir hata ile karşılaşılıyorsa raporun Data Dizayn ekranında ADODatabase “Connected” özelliğini “false” ve “ConnectionString” veya “ConnectionName” özelliğinde değeri silip kaydediyoruz.
+
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingNineteen">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNineteen" aria-expanded="false" aria-controls="flush-collapseNineteen">
+						19. Demodaki programların giriş şifrelerini değiştirme nasıl yapılır ?
+					</button>
+				</h2>
+				<div id="flush-collapseNineteen" class="accordion-collapse collapse" aria-labelledby="flush-headingNineteen" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						“demo.orjin.net “ uzak masaüstüne bağlanıyoruz. Bağlanırken kullanıcı adı ve şifre istiyor.
+						Kullanıcı Adı : Administrator
+						Kullanıcı Şifre : 961c01TJw*-+ ile uzak masaüstüne bağlanılıyor.
+						Daha sonra Bilgisayarım -> Yönet(Manage) -> Local User ve Group-> User
+						Sağ tarafta açılan bölümden şifrelerini değiştirmek istediğimiz demoların üzerine gelip sağ tık -> Set password diyerek demo programlarının isimlerini küçük harfle girerek son 4 basamağını değiştiriyoruz. Bu son 4 basamağını aynı şekilde program isimlerini küçük harfle yazıp 4 basamaklı sayı yazıyoruz. (omega1201, pbtpro1201 şeklinde)<br/>
+						<strong>Not :</strong> Şifre değiştirme işlemi her pazartesi günü sabahtan yapılmalıdır.
+
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingTwenty">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwenty" aria-expanded="false" aria-controls="flush-collapseTwenty">
+						20. Klasörün Paylaşıma Açılması
+					</button>
+				</h2>
+				<div id="flush-collapseTwenty" class="accordion-collapse collapse" aria-labelledby="flush-headingTwenty" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						Orjin klasörüne sağ tuş -> özellikler -> Paylaşım -> Paylaşım... tıklıyoruz. Klasöre programa bağlanacak kişileri paylaşım listesine ekliyoruz ve tam kontrol şekilde yetki veriyoruz.<br />
+						<img src="img/klasor-paylasma-photo.png"/>
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingTwentyOne">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwentyOne" aria-expanded="false" aria-controls="flush-collapseTwentyOne">
+						21. MTU Güncelleme (12.11.2016)
+					</button>
+				</h2>
+				<div id="flush-collapseTwentyOne" class="accordion-collapse collapse" aria-labelledby="flush-headingTwentyOne" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						Onların scriptlerini aldık. Bizim veri tabanımızda yeni database diyip onaların databaseleri ekledik. Backupını aldık kaydettik. Bizim güncel backuplarımızla SQL SQL Comparede Source kısmına kendi güncel backupını Target kısmına müşterinin backupını alıp “Compare Now” diyoruz. Gelen tabloları “Deployment Wizard” diyip script oluşturup onlara gönderiyoruz.
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingTwentyTwo">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwentyTwo" aria-expanded="false" aria-controls="flush-collapseTwentyTwo">
+						<span style="color:red ; font-weight:bold">22. ATSde Bölge ismini değiştirmek</span>
+					</button>
+				</h2>
+				<div id="flush-collapseTwentyTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwentyTwo" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						Öncelikle Genele girip Kod Yönetimine tıklıyorsunuz. Bölge Tanımlarını sol panelden seçip eklemek istediğiniz bölgeyi ekle
+						butonu yardımıyla ekliyorsunuz. Bu işlem yeni bölge tanımlaması için daha sonra
+
+						Bölgesini değiştirmek istediğiniz aracı araç kartından seçip sağ altta bulunan bölge transferine tıklıyoruz.Transfer edilen bölge kısmına
+						yeni oluşturduğumuz bölgeyi seçip kaydet ve kapat dediğimizde yeni bölgeye eklenmiş oluyor.<br/>
+
+						<strong>Not: </strong> Bölge ATSde Kod tablosunda tutuluyor.
+
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingTwentyThree">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwentyThree" aria-expanded="false" aria-controls="flush-collapseTwentyThree">
+						<span style="color:red ; font-weight:bold">23. SQLde aynı girilmiş plakaların sayısını bulma--</span>
+					</button>
+				</h2>
+				<div id="flush-collapseTwentyThree" class="accordion-collapse collapse" aria-labelledby="flush-headingTwentyThree" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						SELECT PLAKA, count( * ) AS tekrar<br/>
+						FROM ARACDTY<br/>
+						GROUP BY PLAKA<br/>
+						HAVING count( * ) >1<br/>
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingTwentyFour">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwentyFour" aria-expanded="false" aria-controls="flush-collapseTwentyFour">
+						<span style="color:red ; font-weight:bold">24. PBTPRO,O-MEGA Kullanıcı Şifre Değişikliği Nasıl Yapılır?</span>
+					</button>
+				</h2>
+				<div id="flush-collapseTwentyFour" class="accordion-collapse collapse" aria-labelledby="flush-headingTwentyFour" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						• Eğer eski şifrelerini biliyorlarsa program giriş ekranında şifre bölümünün yan tarafındaki anahtar işareti bölümünden değiştirilebilir, <br/>
+						• Ya da Kontrol Paneli giriş yetkisi olan bir kullanıcı tarafından  Kullanıcı&Yetkiler -- > Kullanıcı Şifre bölümünden şifre değişikliği yapılabilir.<br/>
+
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="flush-headingTwentyFive">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwentyFive" aria-expanded="false" aria-controls="flush-collapseTwentyFive">
+						<span style="color:red ; font-weight:bold">25. BAĞLANTI BİLGİLERİ(GÜNCEL)</span>
+					</button>
+				</h2>
+				<div id="flush-collapseTwentyFive" class="accordion-collapse collapse" aria-labelledby="flush-headingTwentyFive" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						<span style="color:red">Loreal Bağlantı</span> <br/>
+
+						Internet Explorerdan Logmein'e giriyoruz.<br/>
+
+						LogMeIn şifre : orjin2016<br/>
+
+						ATS PRO isimli sunucu üzerine tıkladığınızda ise aşağıdaki bilgileri verebilirsiniz.<br/>
+
+						Username: trsupport.ats <br/>
+						Password: k6+Apz@2 <br/>
+						Log on to: EMEA <br/>
+						----------------------------------------------------------------------------------- <br/>
+
+						<span style="color:red">Mercedes Baglanti</span> <br/>
+
+						https://sslvpn.daimler.com.tr/external explorerdan giriyoruz. <br/>
+
+						Gelen ekranda Kullanıcı Adı : MEOENEN <br/>
+						Password : Mercedes_Orjin5...... Devamına tokendan gelen sayıyı yazıyoruz.<br/>
+
+						Launch yazan kısma 53.48.137.39 yazıyoruz.<br/>
+
+						Daha sonra EMEA\MEOENEN  ŞİFRE : Mercedes_Orjin5<br/>
+
+						----------------------------------------------------------------------------------- <br/>
+
+						<span style="color:red">Rigips Bağlantı<br/></span>
+
+						Arama kısmına Cisco AnyConnect yazıyoruz.<br/>
+						sg_ras_PARTNER_LİNK notebook dosyasında yazan linki kopyalıyoruz.<br/>
+						Connect<br/>
+						Username : PARE8151<br/>
+						Password: MobilePass'a girip Token Pass'a 1616 yazıyoruz ve üretilen numarayı password'e kopyalıyoruz.<br/>
+						Answer : Mobilepasstaki değişen yeni numarayı yazıyoruz.<br/>
+
+						Bağlantı kurduktan sonra ;<br/>
+
+						Uzak Masaüstünden 10.240.24.8'e bağlanıyoruz.<br/>
+
+						Kullanıcı adı: orjin<br/>
+
+						Parola : Or..2016<br/>
+
+						Kullandıkları Sqlde ;<br/>
+
+						sa<br/>
+
+						Rg..2016<br/>
+
+						-------------------------------------------------------------------------------------- <br/>
+
+
+
+						<span style="color:red">Süreç Takip</span> <br/>
+
+						Kullanıcı Kodu: 40400020 <br/>
+						şifre: 123456 <br/>
+						-------------------------------------------------------------------------------------- <br/>
+
+						wifi şifresi 961c01TJw <br/>
+
+						-------------------------------------------------------------------------------------- <br/>
+						<span style="color:red">Aras Kargo </span> <br/>
+						
+
+						GlobalProtectle <br/> 
+						portal :https://31.145.28.130 <br/>
+						username: mertakkaya <br/>
+						password: Mert_2017 --> Connect--> Continue <br/>
+						Daha sonra uzakmasaüstünden 172.16.2.182 <br/>
+						username: mertakkaya <br/>
+						password: Mert_2017 <br/>
+						log on to: ARASDMN <br/>
+						-------------------------------------------------------------------------------------- <br/>
+						<span style="color:red">HGG</span> <br/>
+
+						78.187.5.26 <br/>
+
+						administrator *1q2w3e4r5t* <br/>
+						------------------------------------------------------------------------------------- <br/>
+
+						http://www.bakicubuk.com/windows-server-2008-r2-remoteapp-manager-ile-uygulama-yayinlama/
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Static Table End -->
+	<!-- jquery
+	============================================ -->
+	<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<!-- bootstrap JS
+	============================================ -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- wow JS
+	============================================ -->
+	<script src="js/wow.min.js"></script>
+	<!-- price-slider JS
+	============================================ -->
+	<script src="js/jquery-price-slider.js"></script>
+	<!-- meanmenu JS
+	============================================ -->
+	<script src="js/jquery.meanmenu.js"></script>
+	<!-- owl.carousel JS
+	============================================ -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- sticky JS
+	============================================ -->
+	<script src="js/jquery.sticky.js"></script>
+	<!-- scrollUp JS
+	============================================ -->
+	<script src="js/jquery.scrollUp.min.js"></script>
+	<!-- mCustomScrollbar JS
+	============================================ -->
+	<script src="js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="js/scrollbar/mCustomScrollbar-active.js"></script>
+	<!-- metisMenu JS
+	============================================ -->
+	<script src="js/metisMenu/metisMenu.min.js"></script>
+	<script src="js/metisMenu/metisMenu-active.js"></script>
+	
+	<!-- tab JS
+	============================================ -->
+	<script src="js/tab.js"></script>
+	<!-- plugins JS
+	============================================ -->
+	<script src="js/plugins.js"></script>
+	<!-- main JS
+	============================================ -->
+	<script src="js/main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+@if (TempData["Failure"] != null)
+{
+	<script src="js/cute-alert.js"></script>
+	<script type="text/javascript">
+		cuteAlert({
+			type: "error",
+			title: "Hata",
+			message: "@TempData["Failure"]",
+			buttonText: "Tamam",
+		})
+	</script>
+}
+@if (TempData["Success"] != null)
+{
+	<script src="js/cute-alert.js"></script>
+	<script type="text/javascript">
+		cuteAlert({
+			type: "success",
+			title: "Başarılı",
+			message: "@TempData["Success"]",
+			buttonText: "Tamam",
+		})
+	</script>
+}
+</html>

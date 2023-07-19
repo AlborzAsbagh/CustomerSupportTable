@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j/IErfwlfXuUz4rU8xjbavGpGnDlOyhnmH8RGuGnWGa7NFddNFPXcnURwT+KA9cEbwkQCmuKJbDiaI3EOIMGIA==",
+  "dgSpecHash": "VQmAGUNICAgPJ+B2cPfM91PiNaZQaDk/JwkUOdCbZmxINlQvB/uiFOusy+8uBx6hAYxLNyYQK/i+m/jVWI3lAw==",
   "success": true,
-  "projectFilePath": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\OrjinDestek.csproj",
+  "projectFilePath": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\OrjinDestek.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alborz\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Alborz\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

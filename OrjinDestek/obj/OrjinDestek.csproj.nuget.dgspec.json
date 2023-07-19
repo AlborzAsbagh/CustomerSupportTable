@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\OrjinDestek.csproj": {}
+    "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\OrjinDestek.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\OrjinDestek.csproj": {
+    "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\OrjinDestek.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\OrjinDestek.csproj",
+        "projectUniqueName": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\OrjinDestek.csproj",
         "projectName": "OrjinDestek",
-        "projectPath": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\OrjinDestek.csproj",
+        "projectPath": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\OrjinDestek.csproj",
         "packagesPath": "C:\\Users\\Alborz\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\obj\\",
+        "outputPath": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alborz\\AppData\\Roaming\\NuGet\\NuGet.Config",
