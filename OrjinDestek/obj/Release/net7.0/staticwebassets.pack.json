@@ -1,1267 +1,1295 @@
 {
   "Files": [
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\OrjinDestek.bundle.scp.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\OrjinDestek.bundle.scp.css",
       "PackagePath": "staticwebassets\\OrjinDestek.bundle.scp.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\accordions.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\AppCss\\Document\\document.css",
+      "PackagePath": "staticwebassets\\AppCss\\Document\\document.css"
+    },
+    {
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\accordions.css",
       "PackagePath": "staticwebassets\\css\\accordions.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\alert.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\alert.css",
       "PackagePath": "staticwebassets\\css\\alert.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\alerts.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\alerts.css",
       "PackagePath": "staticwebassets\\css\\alerts.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\animate.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\animate.css",
       "PackagePath": "staticwebassets\\css\\animate.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\assets\\images\\grid.svg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\assets\\images\\grid.svg",
       "PackagePath": "staticwebassets\\css\\assets\\images\\grid.svg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\assets\\images\\log-out.svg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\assets\\images\\log-out.svg",
       "PackagePath": "staticwebassets\\css\\assets\\images\\log-out.svg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\assets\\images\\logo.svg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\assets\\images\\logo.svg",
       "PackagePath": "staticwebassets\\css\\assets\\images\\logo.svg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\assets\\images\\menu.svg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\assets\\images\\menu.svg",
       "PackagePath": "staticwebassets\\css\\assets\\images\\menu.svg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\assets\\images\\pet.svg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\assets\\images\\pet.svg",
       "PackagePath": "staticwebassets\\css\\assets\\images\\pet.svg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\assets\\images\\search.svg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\assets\\images\\search.svg",
       "PackagePath": "staticwebassets\\css\\assets\\images\\search.svg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\assets\\images\\settings.svg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\assets\\images\\settings.svg",
       "PackagePath": "staticwebassets\\css\\assets\\images\\settings.svg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\assets\\images\\user.svg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\assets\\images\\user.svg",
       "PackagePath": "staticwebassets\\css\\assets\\images\\user.svg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\assets\\images\\vet.svg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\assets\\images\\vet.svg",
       "PackagePath": "staticwebassets\\css\\assets\\images\\vet.svg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\buttons.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\buttons.css",
       "PackagePath": "staticwebassets\\css\\buttons.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\c3\\c3.min.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\c3\\c3.min.css",
       "PackagePath": "staticwebassets\\css\\c3\\c3.min.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\calendar\\fullcalendar.min.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\calendar\\fullcalendar.min.css",
       "PackagePath": "staticwebassets\\css\\calendar\\fullcalendar.min.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\calendar\\fullcalendar.print.min.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\calendar\\fullcalendar.print.min.css",
       "PackagePath": "staticwebassets\\css\\calendar\\fullcalendar.print.min.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\chosen\\bootstrap-chosen.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\chosen\\bootstrap-chosen.css",
       "PackagePath": "staticwebassets\\css\\chosen\\bootstrap-chosen.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\chosen\\chosen-sprite.png",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\chosen\\chosen-sprite.png",
       "PackagePath": "staticwebassets\\css\\chosen\\chosen-sprite.png"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\code-editor\\ambiance.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\code-editor\\ambiance.css",
       "PackagePath": "staticwebassets\\css\\code-editor\\ambiance.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\code-editor\\codemirror.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\code-editor\\codemirror.css",
       "PackagePath": "staticwebassets\\css\\code-editor\\codemirror.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\colorpicker\\colorpicker.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\colorpicker\\colorpicker.css",
       "PackagePath": "staticwebassets\\css\\colorpicker\\colorpicker.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\cropper\\cropper.min.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\cropper\\cropper.min.css",
       "PackagePath": "staticwebassets\\css\\cropper\\cropper.min.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\data-table\\bootstrap-editable.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\data-table\\bootstrap-editable.css",
       "PackagePath": "staticwebassets\\css\\data-table\\bootstrap-editable.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\data-table\\bootstrap-table.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\data-table\\bootstrap-table.css",
       "PackagePath": "staticwebassets\\css\\data-table\\bootstrap-table.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\datapicker\\colorpicker.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\datapicker\\colorpicker.css",
       "PackagePath": "staticwebassets\\css\\datapicker\\colorpicker.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\datapicker\\datepicker3.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\datapicker\\datepicker3.css",
       "PackagePath": "staticwebassets\\css\\datapicker\\datepicker3.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\dropzone\\dropzone.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\dropzone\\dropzone.css",
       "PackagePath": "staticwebassets\\css\\dropzone\\dropzone.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\duallistbox\\bootstrap-duallistbox.min.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\duallistbox\\bootstrap-duallistbox.min.css",
       "PackagePath": "staticwebassets\\css\\duallistbox\\bootstrap-duallistbox.min.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\editor\\bootstrap-editable.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\editor\\bootstrap-editable.css",
       "PackagePath": "staticwebassets\\css\\editor\\bootstrap-editable.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\editor\\datetimepicker.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\editor\\datetimepicker.css",
       "PackagePath": "staticwebassets\\css\\editor\\datetimepicker.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\editor\\select2.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\editor\\select2.css",
       "PackagePath": "staticwebassets\\css\\editor\\select2.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\editor\\x-editor-style.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\editor\\x-editor-style.css",
       "PackagePath": "staticwebassets\\css\\editor\\x-editor-style.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\educate-custon-icon.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\educate-custon-icon.css",
       "PackagePath": "staticwebassets\\css\\educate-custon-icon.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\font-awesome.min.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\form.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\form.css",
       "PackagePath": "staticwebassets\\css\\form.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\form\\all-type-forms.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\form\\all-type-forms.css",
       "PackagePath": "staticwebassets\\css\\form\\all-type-forms.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\form\\themesaller-forms.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\form\\themesaller-forms.css",
       "PackagePath": "staticwebassets\\css\\form\\themesaller-forms.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\ionRangeSlider\\ion.rangeSlider.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\ionRangeSlider\\ion.rangeSlider.css",
       "PackagePath": "staticwebassets\\css\\ionRangeSlider\\ion.rangeSlider.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\ionRangeSlider\\ion.rangeSlider.skinFlat.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\ionRangeSlider\\ion.rangeSlider.skinFlat.css",
       "PackagePath": "staticwebassets\\css\\ionRangeSlider\\ion.rangeSlider.skinFlat.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\ionRangeSlider\\sprite-skin-flat.png",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\ionRangeSlider\\sprite-skin-flat.png",
       "PackagePath": "staticwebassets\\css\\ionRangeSlider\\sprite-skin-flat.png"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\login.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\main.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\main.css",
       "PackagePath": "staticwebassets\\css\\main.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\meanmenu.min.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\meanmenu.min.css",
       "PackagePath": "staticwebassets\\css\\meanmenu.min.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\menu_tabs.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\menu_tabs.css",
       "PackagePath": "staticwebassets\\css\\menu_tabs.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\metisMenu\\metisMenu-vertical.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\metisMenu\\metisMenu-vertical.css",
       "PackagePath": "staticwebassets\\css\\metisMenu\\metisMenu-vertical.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\metisMenu\\metisMenu.min.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\metisMenu\\metisMenu.min.css",
       "PackagePath": "staticwebassets\\css\\metisMenu\\metisMenu.min.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\metisMenu\\metisMenu.min.css.map",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\metisMenu\\metisMenu.min.css.map",
       "PackagePath": "staticwebassets\\css\\metisMenu\\metisMenu.min.css.map"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\modals.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\modals.css",
       "PackagePath": "staticwebassets\\css\\modals.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\morrisjs\\morris.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\morrisjs\\morris.css",
       "PackagePath": "staticwebassets\\css\\morrisjs\\morris.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\navbar.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\navbar.css",
       "PackagePath": "staticwebassets\\css\\navbar.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\normalize.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\normalize.css",
       "PackagePath": "staticwebassets\\css\\normalize.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\notifications\\Lobibox.min.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\notifications\\Lobibox.min.css",
       "PackagePath": "staticwebassets\\css\\notifications\\Lobibox.min.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\notifications\\notifications.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\notifications\\notifications.css",
       "PackagePath": "staticwebassets\\css\\notifications\\notifications.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\owl.carousel.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\owl.carousel.css",
       "PackagePath": "staticwebassets\\css\\owl.carousel.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\owl.theme.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\owl.theme.css",
       "PackagePath": "staticwebassets\\css\\owl.theme.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\owl.transitions.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\owl.transitions.css",
       "PackagePath": "staticwebassets\\css\\owl.transitions.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\preloader\\preloader-style.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\preloader\\preloader-style.css",
       "PackagePath": "staticwebassets\\css\\preloader\\preloader-style.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\responsive.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\responsive.css",
       "PackagePath": "staticwebassets\\css\\responsive.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\scrollbar\\jquery.mCustomScrollbar.min.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\scrollbar\\jquery.mCustomScrollbar.min.css",
       "PackagePath": "staticwebassets\\css\\scrollbar\\jquery.mCustomScrollbar.min.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\select2\\select2.min.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\select2\\select2.min.css",
       "PackagePath": "staticwebassets\\css\\select2\\select2.min.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\site.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\style.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\summernote\\fonts\\summernote.eot",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\summernote\\fonts\\summernote.eot",
       "PackagePath": "staticwebassets\\css\\summernote\\fonts\\summernote.eot"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\summernote\\fonts\\summernote.ttf",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\summernote\\fonts\\summernote.ttf",
       "PackagePath": "staticwebassets\\css\\summernote\\fonts\\summernote.ttf"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\summernote\\fonts\\summernote.woff",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\summernote\\fonts\\summernote.woff",
       "PackagePath": "staticwebassets\\css\\summernote\\fonts\\summernote.woff"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\summernote\\summernote.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\summernote\\summernote.css",
       "PackagePath": "staticwebassets\\css\\summernote\\summernote.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\tabs.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\tabs.css",
       "PackagePath": "staticwebassets\\css\\tabs.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\touchspin\\jquery.bootstrap-touchspin.min.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\touchspin\\jquery.bootstrap-touchspin.min.css",
       "PackagePath": "staticwebassets\\css\\touchspin\\jquery.bootstrap-touchspin.min.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\tree-viewer\\32px.png",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\tree-viewer\\32px.png",
       "PackagePath": "staticwebassets\\css\\tree-viewer\\32px.png"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\tree-viewer\\throbber.gif",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\tree-viewer\\throbber.gif",
       "PackagePath": "staticwebassets\\css\\tree-viewer\\throbber.gif"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\tree-viewer\\tree-viewer.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\css\\tree-viewer\\tree-viewer.css",
       "PackagePath": "staticwebassets\\css\\tree-viewer\\tree-viewer.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\favicon.ico",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\FontAwesome.otf",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\educate-icon.svg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\educate-icon.svg",
       "PackagePath": "staticwebassets\\fonts\\educate-icon.svg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\educate-icon.ttf",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\educate-icon.ttf",
       "PackagePath": "staticwebassets\\fonts\\educate-icon.ttf"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\educate-icon.woff",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\educate-icon.woff",
       "PackagePath": "staticwebassets\\fonts\\educate-icon.woff"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.eot"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.svg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.ttf"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff2"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\blog-details\\1.jpg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\aktarim-photo.png",
+      "PackagePath": "staticwebassets\\img\\aktarim-photo.png"
+    },
+    {
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\blog-details\\1.jpg",
       "PackagePath": "staticwebassets\\img\\blog-details\\1.jpg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\clear.png",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\clear.png",
       "PackagePath": "staticwebassets\\img\\clear.png"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\contact\\1.jpg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\contact\\1.jpg",
       "PackagePath": "staticwebassets\\img\\contact\\1.jpg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\contact\\2.jpg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\contact\\2.jpg",
       "PackagePath": "staticwebassets\\img\\contact\\2.jpg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\contact\\3.jpg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\contact\\3.jpg",
       "PackagePath": "staticwebassets\\img\\contact\\3.jpg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\contact\\4.jpg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\contact\\4.jpg",
       "PackagePath": "staticwebassets\\img\\contact\\4.jpg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\courses\\1.jpg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\courses\\1.jpg",
       "PackagePath": "staticwebassets\\img\\courses\\1.jpg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\courses\\2.jpg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\courses\\2.jpg",
       "PackagePath": "staticwebassets\\img\\courses\\2.jpg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\courses\\3.jpg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\courses\\3.jpg",
       "PackagePath": "staticwebassets\\img\\courses\\3.jpg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\cropper\\1.jpg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\cropper\\1.jpg",
       "PackagePath": "staticwebassets\\img\\cropper\\1.jpg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\customer-support.png",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\customer-support.png",
       "PackagePath": "staticwebassets\\img\\customer-support.png"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\email.png",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\email.png",
       "PackagePath": "staticwebassets\\img\\email.png"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\error.svg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\error.svg",
       "PackagePath": "staticwebassets\\img\\error.svg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\favicon.ico",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\favicon.ico",
       "PackagePath": "staticwebassets\\img\\favicon.ico"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\green1.png",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\green1.png",
       "PackagePath": "staticwebassets\\img\\green1.png"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\info.svg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\info.svg",
       "PackagePath": "staticwebassets\\img\\info.svg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\loading.gif",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\klasor-paylasma-photo.png",
+      "PackagePath": "staticwebassets\\img\\klasor-paylasma-photo.png"
+    },
+    {
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\loading.gif",
       "PackagePath": "staticwebassets\\img\\loading.gif"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\logo\\logo.png",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\logo\\logo.png",
       "PackagePath": "staticwebassets\\img\\logo\\logo.png"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\logo\\logosn.png",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\logo\\logosn.png",
       "PackagePath": "staticwebassets\\img\\logo\\logosn.png"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\notification\\1.jpg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\notification\\1.jpg",
       "PackagePath": "staticwebassets\\img\\notification\\1.jpg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\notification\\2.jpg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\notification\\2.jpg",
       "PackagePath": "staticwebassets\\img\\notification\\2.jpg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\notification\\3.jpg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\notification\\3.jpg",
       "PackagePath": "staticwebassets\\img\\notification\\3.jpg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\notification\\4.jpg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\notification\\4.jpg",
       "PackagePath": "staticwebassets\\img\\notification\\4.jpg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\notification\\5.jpg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\notification\\5.jpg",
       "PackagePath": "staticwebassets\\img\\notification\\5.jpg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\notification\\6.jpg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\notification\\6.jpg",
       "PackagePath": "staticwebassets\\img\\notification\\6.jpg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\product\\book-1.jpg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\otomatik-kurulum-photo.png",
+      "PackagePath": "staticwebassets\\img\\otomatik-kurulum-photo.png"
+    },
+    {
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\product\\book-1.jpg",
       "PackagePath": "staticwebassets\\img\\product\\book-1.jpg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\product\\book-2.jpg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\product\\book-2.jpg",
       "PackagePath": "staticwebassets\\img\\product\\book-2.jpg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\product\\book-3.jpg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\product\\book-3.jpg",
       "PackagePath": "staticwebassets\\img\\product\\book-3.jpg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\product\\book-4.jpg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\product\\book-4.jpg",
       "PackagePath": "staticwebassets\\img\\product\\book-4.jpg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\product\\pro4.jpg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\product\\pro4.jpg",
       "PackagePath": "staticwebassets\\img\\product\\pro4.jpg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\product\\profile-bg.jpg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\product\\profile-bg.jpg",
       "PackagePath": "staticwebassets\\img\\product\\profile-bg.jpg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\profile\\1.jpg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\profile\\1.jpg",
       "PackagePath": "staticwebassets\\img\\profile\\1.jpg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\question.svg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\question.svg",
       "PackagePath": "staticwebassets\\img\\question.svg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\student\\1.jpg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\server-client-1-photo.png",
+      "PackagePath": "staticwebassets\\img\\server-client-1-photo.png"
+    },
+    {
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\server-client-2-photo.png",
+      "PackagePath": "staticwebassets\\img\\server-client-2-photo.png"
+    },
+    {
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\server-client-3-photo.png",
+      "PackagePath": "staticwebassets\\img\\server-client-3-photo.png"
+    },
+    {
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\student\\1.jpg",
       "PackagePath": "staticwebassets\\img\\student\\1.jpg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\student\\2.jpg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\student\\2.jpg",
       "PackagePath": "staticwebassets\\img\\student\\2.jpg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\student\\3.jpg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\student\\3.jpg",
       "PackagePath": "staticwebassets\\img\\student\\3.jpg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\student\\4.jpg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\student\\4.jpg",
       "PackagePath": "staticwebassets\\img\\student\\4.jpg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\success.svg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\success.svg",
       "PackagePath": "staticwebassets\\img\\success.svg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\support_icon.png",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\support_icon.png",
       "PackagePath": "staticwebassets\\img\\support_icon.png"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\user.png",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\user.png",
       "PackagePath": "staticwebassets\\img\\user.png"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\warning.svg",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\img\\warning.svg",
       "PackagePath": "staticwebassets\\img\\warning.svg"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\addRecord.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\addRecord.js",
       "PackagePath": "staticwebassets\\js\\addRecord.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\bootstrap.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\c3-charts\\c3-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\c3-charts\\c3-active.js",
       "PackagePath": "staticwebassets\\js\\c3-charts\\c3-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\c3-charts\\c3.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\c3-charts\\c3.min.js",
       "PackagePath": "staticwebassets\\js\\c3-charts\\c3.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\c3-charts\\d3.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\c3-charts\\d3.min.js",
       "PackagePath": "staticwebassets\\js\\c3-charts\\d3.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\calendar\\fullcalendar-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\calendar\\fullcalendar-active.js",
       "PackagePath": "staticwebassets\\js\\calendar\\fullcalendar-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\calendar\\fullcalendar.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\calendar\\fullcalendar.min.js",
       "PackagePath": "staticwebassets\\js\\calendar\\fullcalendar.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\calendar\\moment.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\calendar\\moment.min.js",
       "PackagePath": "staticwebassets\\js\\calendar\\moment.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\card.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\card.js",
       "PackagePath": "staticwebassets\\js\\card.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\chart\\jquery.peity.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\chart\\jquery.peity.min.js",
       "PackagePath": "staticwebassets\\js\\chart\\jquery.peity.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\chart\\peity-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\chart\\peity-active.js",
       "PackagePath": "staticwebassets\\js\\chart\\peity-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\charts\\Chart.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\charts\\Chart.js",
       "PackagePath": "staticwebassets\\js\\charts\\Chart.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\charts\\area-chart.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\charts\\area-chart.js",
       "PackagePath": "staticwebassets\\js\\charts\\area-chart.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\charts\\bar-chart.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\charts\\bar-chart.js",
       "PackagePath": "staticwebassets\\js\\charts\\bar-chart.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\charts\\line-chart.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\charts\\line-chart.js",
       "PackagePath": "staticwebassets\\js\\charts\\line-chart.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\charts\\rounded-chart.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\charts\\rounded-chart.js",
       "PackagePath": "staticwebassets\\js\\charts\\rounded-chart.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\chosen\\chosen-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\chosen\\chosen-active.js",
       "PackagePath": "staticwebassets\\js\\chosen\\chosen-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\chosen\\chosen.jquery.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\chosen\\chosen.jquery.js",
       "PackagePath": "staticwebassets\\js\\chosen\\chosen.jquery.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\chosen\\chosen.jquery.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\chosen\\chosen.jquery.min.js",
       "PackagePath": "staticwebassets\\js\\chosen\\chosen.jquery.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\code-editor\\code-editor-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\code-editor\\code-editor-active.js",
       "PackagePath": "staticwebassets\\js\\code-editor\\code-editor-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\code-editor\\code-editor.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\code-editor\\code-editor.js",
       "PackagePath": "staticwebassets\\js\\code-editor\\code-editor.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\code-editor\\codemirror.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\code-editor\\codemirror.js",
       "PackagePath": "staticwebassets\\js\\code-editor\\codemirror.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\colorpicker\\color-picker-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\colorpicker\\color-picker-active.js",
       "PackagePath": "staticwebassets\\js\\colorpicker\\color-picker-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\colorpicker\\jquery.spectrum.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\colorpicker\\jquery.spectrum.min.js",
       "PackagePath": "staticwebassets\\js\\colorpicker\\jquery.spectrum.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\counterup\\counterup-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\counterup\\counterup-active.js",
       "PackagePath": "staticwebassets\\js\\counterup\\counterup-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\counterup\\jquery.counterup.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\counterup\\jquery.counterup.min.js",
       "PackagePath": "staticwebassets\\js\\counterup\\jquery.counterup.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\counterup\\waypoints.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\counterup\\waypoints.min.js",
       "PackagePath": "staticwebassets\\js\\counterup\\waypoints.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\cropper\\cropper-actice.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\cropper\\cropper-actice.js",
       "PackagePath": "staticwebassets\\js\\cropper\\cropper-actice.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\cropper\\cropper.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\cropper\\cropper.min.js",
       "PackagePath": "staticwebassets\\js\\cropper\\cropper.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\cute-alert.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\cute-alert.js",
       "PackagePath": "staticwebassets\\js\\cute-alert.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\data-map\\d3.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\data-map\\d3.min.js",
       "PackagePath": "staticwebassets\\js\\data-map\\d3.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\data-map\\data-maps-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\data-map\\data-maps-active.js",
       "PackagePath": "staticwebassets\\js\\data-map\\data-maps-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\data-map\\datamaps.all.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\data-map\\datamaps.all.min.js",
       "PackagePath": "staticwebassets\\js\\data-map\\datamaps.all.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\data-map\\topojson.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\data-map\\topojson.js",
       "PackagePath": "staticwebassets\\js\\data-map\\topojson.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\data-table\\bootstrap-editable.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\data-table\\bootstrap-editable.js",
       "PackagePath": "staticwebassets\\js\\data-table\\bootstrap-editable.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\data-table\\bootstrap-table-editable.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\data-table\\bootstrap-table-editable.js",
       "PackagePath": "staticwebassets\\js\\data-table\\bootstrap-table-editable.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\data-table\\bootstrap-table-export.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\data-table\\bootstrap-table-export.js",
       "PackagePath": "staticwebassets\\js\\data-table\\bootstrap-table-export.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\data-table\\bootstrap-table-resizable.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\data-table\\bootstrap-table-resizable.js",
       "PackagePath": "staticwebassets\\js\\data-table\\bootstrap-table-resizable.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\data-table\\bootstrap-table.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\data-table\\bootstrap-table.js",
       "PackagePath": "staticwebassets\\js\\data-table\\bootstrap-table.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\data-table\\colResizable-1.5.source.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\data-table\\colResizable-1.5.source.js",
       "PackagePath": "staticwebassets\\js\\data-table\\colResizable-1.5.source.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\data-table\\data-table-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\data-table\\data-table-active.js",
       "PackagePath": "staticwebassets\\js\\data-table\\data-table-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\data-table\\tableExport.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\data-table\\tableExport.js",
       "PackagePath": "staticwebassets\\js\\data-table\\tableExport.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\datapicker\\bootstrap-datepicker.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\datapicker\\bootstrap-datepicker.js",
       "PackagePath": "staticwebassets\\js\\datapicker\\bootstrap-datepicker.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\datapicker\\bootstrap-datepicker.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\datapicker\\bootstrap-datepicker.min.js",
       "PackagePath": "staticwebassets\\js\\datapicker\\bootstrap-datepicker.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\datapicker\\datepicker-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\datapicker\\datepicker-active.js",
       "PackagePath": "staticwebassets\\js\\datapicker\\datepicker-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\datepicker\\datepicker-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\datepicker\\datepicker-active.js",
       "PackagePath": "staticwebassets\\js\\datepicker\\datepicker-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\datepicker\\jquery-ui.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\datepicker\\jquery-ui.min.js",
       "PackagePath": "staticwebassets\\js\\datepicker\\jquery-ui.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\detailsMainJsCodes.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\detailsMainJsCodes.js",
       "PackagePath": "staticwebassets\\js\\detailsMainJsCodes.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\dropzone\\dropzone.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\dropzone\\dropzone.js",
       "PackagePath": "staticwebassets\\js\\dropzone\\dropzone.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\duallistbox\\duallistbox.active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\duallistbox\\duallistbox.active.js",
       "PackagePath": "staticwebassets\\js\\duallistbox\\duallistbox.active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\duallistbox\\jquery.bootstrap-duallistbox.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\duallistbox\\jquery.bootstrap-duallistbox.js",
       "PackagePath": "staticwebassets\\js\\duallistbox\\jquery.bootstrap-duallistbox.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\e-payment.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\e-payment.js",
       "PackagePath": "staticwebassets\\js\\e-payment.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\editable\\bootstrap-datetimepicker.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\editable\\bootstrap-datetimepicker.js",
       "PackagePath": "staticwebassets\\js\\editable\\bootstrap-datetimepicker.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\editable\\bootstrap-editable.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\editable\\bootstrap-editable.js",
       "PackagePath": "staticwebassets\\js\\editable\\bootstrap-editable.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\editable\\jquery.mockjax.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\editable\\jquery.mockjax.js",
       "PackagePath": "staticwebassets\\js\\editable\\jquery.mockjax.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\editable\\mock-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\editable\\mock-active.js",
       "PackagePath": "staticwebassets\\js\\editable\\mock-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\editable\\moment.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\editable\\moment.min.js",
       "PackagePath": "staticwebassets\\js\\editable\\moment.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\editable\\select2.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\editable\\select2.js",
       "PackagePath": "staticwebassets\\js\\editable\\select2.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\editable\\xediable-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\editable\\xediable-active.js",
       "PackagePath": "staticwebassets\\js\\editable\\xediable-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\form-validation\\form-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\form-validation\\form-active.js",
       "PackagePath": "staticwebassets\\js\\form-validation\\form-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\form-validation\\jquery.form.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\form-validation\\jquery.form.min.js",
       "PackagePath": "staticwebassets\\js\\form-validation\\jquery.form.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\form-validation\\jquery.validate.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\form-validation\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\js\\form-validation\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\google.maps\\google.maps-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\google.maps\\google.maps-active.js",
       "PackagePath": "staticwebassets\\js\\google.maps\\google.maps-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\icheck\\icheck-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\icheck\\icheck-active.js",
       "PackagePath": "staticwebassets\\js\\icheck\\icheck-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\icheck\\icheck.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\icheck\\icheck.min.js",
       "PackagePath": "staticwebassets\\js\\icheck\\icheck.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\input-mask\\jasny-bootstrap.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\input-mask\\jasny-bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\input-mask\\jasny-bootstrap.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\ionRangeSlider\\ion.rangeSlider.active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\ionRangeSlider\\ion.rangeSlider.active.js",
       "PackagePath": "staticwebassets\\js\\ionRangeSlider\\ion.rangeSlider.active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\ionRangeSlider\\ion.rangeSlider.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\ionRangeSlider\\ion.rangeSlider.min.js",
       "PackagePath": "staticwebassets\\js\\ionRangeSlider\\ion.rangeSlider.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\jquery-price-slider.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\jquery-price-slider.js",
       "PackagePath": "staticwebassets\\js\\jquery-price-slider.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\jquery.maskedinput.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\jquery.maskedinput.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.maskedinput.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\jquery.meanmenu.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\jquery.meanmenu.js",
       "PackagePath": "staticwebassets\\js\\jquery.meanmenu.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\jquery.payform.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\jquery.payform.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.payform.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\jquery.scrollUp.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\jquery.scrollUp.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.scrollUp.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\jquery.sticky.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\jquery.sticky.js",
       "PackagePath": "staticwebassets\\js\\jquery.sticky.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\knob\\jquery.knob.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\knob\\jquery.knob.js",
       "PackagePath": "staticwebassets\\js\\knob\\jquery.knob.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\knob\\knob-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\knob\\knob-active.js",
       "PackagePath": "staticwebassets\\js\\knob\\knob-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\login.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\login.js",
       "PackagePath": "staticwebassets\\js\\login.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\main.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\masking-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\masking-active.js",
       "PackagePath": "staticwebassets\\js\\masking-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\menu_tabs.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\menu_tabs.js",
       "PackagePath": "staticwebassets\\js\\menu_tabs.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\metisMenu\\metisMenu-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\metisMenu\\metisMenu-active.js",
       "PackagePath": "staticwebassets\\js\\metisMenu\\metisMenu-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\metisMenu\\metisMenu.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\metisMenu\\metisMenu.min.js",
       "PackagePath": "staticwebassets\\js\\metisMenu\\metisMenu.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\metisMenu\\metisMenu.min.js.map",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\metisMenu\\metisMenu.min.js.map",
       "PackagePath": "staticwebassets\\js\\metisMenu\\metisMenu.min.js.map"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\modal_search.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\modal_search.js",
       "PackagePath": "staticwebassets\\js\\modal_search.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\morrisjs\\home3-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\morrisjs\\home3-active.js",
       "PackagePath": "staticwebassets\\js\\morrisjs\\home3-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\morrisjs\\morris-active-pro.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\morrisjs\\morris-active-pro.js",
       "PackagePath": "staticwebassets\\js\\morrisjs\\morris-active-pro.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\morrisjs\\morris-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\morrisjs\\morris-active.js",
       "PackagePath": "staticwebassets\\js\\morrisjs\\morris-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\morrisjs\\morris.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\morrisjs\\morris.js",
       "PackagePath": "staticwebassets\\js\\morrisjs\\morris.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\morrisjs\\raphael-min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\morrisjs\\raphael-min.js",
       "PackagePath": "staticwebassets\\js\\morrisjs\\raphael-min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\multiple-email\\multiple-email-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\multiple-email\\multiple-email-active.js",
       "PackagePath": "staticwebassets\\js\\multiple-email\\multiple-email-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\notifications\\Lobibox.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\notifications\\Lobibox.js",
       "PackagePath": "staticwebassets\\js\\notifications\\Lobibox.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\notifications\\notification-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\notifications\\notification-active.js",
       "PackagePath": "staticwebassets\\js\\notifications\\notification-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\owl.carousel.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\password-meter\\password-meter-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\password-meter\\password-meter-active.js",
       "PackagePath": "staticwebassets\\js\\password-meter\\password-meter-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\password-meter\\pwstrength-bootstrap.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\password-meter\\pwstrength-bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\password-meter\\pwstrength-bootstrap.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\password-meter\\zxcvbn.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\password-meter\\zxcvbn.js",
       "PackagePath": "staticwebassets\\js\\password-meter\\zxcvbn.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\pdf\\jquery.media.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\pdf\\jquery.media.js",
       "PackagePath": "staticwebassets\\js\\pdf\\jquery.media.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\pdf\\pdf-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\pdf\\pdf-active.js",
       "PackagePath": "staticwebassets\\js\\pdf\\pdf-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\peity\\jquery.peity.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\peity\\jquery.peity.min.js",
       "PackagePath": "staticwebassets\\js\\peity\\jquery.peity.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\peity\\peity-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\peity\\peity-active.js",
       "PackagePath": "staticwebassets\\js\\peity\\peity-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\plugins.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\plugins.js",
       "PackagePath": "staticwebassets\\js\\plugins.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\rangle-slider\\jquery-ui-1.10.4.custom.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\rangle-slider\\jquery-ui-1.10.4.custom.min.js",
       "PackagePath": "staticwebassets\\js\\rangle-slider\\jquery-ui-1.10.4.custom.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\rangle-slider\\jquery-ui-touch-punch.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\rangle-slider\\jquery-ui-touch-punch.min.js",
       "PackagePath": "staticwebassets\\js\\rangle-slider\\jquery-ui-touch-punch.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\rangle-slider\\rangle-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\rangle-slider\\rangle-active.js",
       "PackagePath": "staticwebassets\\js\\rangle-slider\\rangle-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\scrollbar\\jquery.mCustomScrollbar.concat.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\scrollbar\\jquery.mCustomScrollbar.concat.min.js",
       "PackagePath": "staticwebassets\\js\\scrollbar\\jquery.mCustomScrollbar.concat.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\scrollbar\\mCustomScrollbar-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\scrollbar\\mCustomScrollbar-active.js",
       "PackagePath": "staticwebassets\\js\\scrollbar\\mCustomScrollbar-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\select2\\select2-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\select2\\select2-active.js",
       "PackagePath": "staticwebassets\\js\\select2\\select2-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\select2\\select2.full.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\select2\\select2.full.min.js",
       "PackagePath": "staticwebassets\\js\\select2\\select2.full.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\selection.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\selection.js",
       "PackagePath": "staticwebassets\\js\\selection.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\site.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\sparkline\\jquery.charts-sparkline.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\sparkline\\jquery.charts-sparkline.js",
       "PackagePath": "staticwebassets\\js\\sparkline\\jquery.charts-sparkline.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\sparkline\\jquery.sparkline.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\sparkline\\jquery.sparkline.min.js",
       "PackagePath": "staticwebassets\\js\\sparkline\\jquery.sparkline.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\sparkline\\sparkline-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\sparkline\\sparkline-active.js",
       "PackagePath": "staticwebassets\\js\\sparkline\\sparkline-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\summernote\\summernote-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\summernote\\summernote-active.js",
       "PackagePath": "staticwebassets\\js\\summernote\\summernote-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\summernote\\summernote.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\summernote\\summernote.min.js",
       "PackagePath": "staticwebassets\\js\\summernote\\summernote.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\tab.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\tab.js",
       "PackagePath": "staticwebassets\\js\\tab.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\tawk-chat.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\tawk-chat.js",
       "PackagePath": "staticwebassets\\js\\tawk-chat.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\touchspin\\jquery.bootstrap-touchspin.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\touchspin\\jquery.bootstrap-touchspin.min.js",
       "PackagePath": "staticwebassets\\js\\touchspin\\jquery.bootstrap-touchspin.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\touchspin\\touchspin-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\touchspin\\touchspin-active.js",
       "PackagePath": "staticwebassets\\js\\touchspin\\touchspin-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\tree-line\\jstree.active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\tree-line\\jstree.active.js",
       "PackagePath": "staticwebassets\\js\\tree-line\\jstree.active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\tree-line\\jstree.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\tree-line\\jstree.min.js",
       "PackagePath": "staticwebassets\\js\\tree-line\\jstree.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\vendor\\jquery-1.12.4.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\vendor\\jquery-1.12.4.min.js",
       "PackagePath": "staticwebassets\\js\\vendor\\jquery-1.12.4.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\vendor\\modernizr-2.8.3.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\vendor\\modernizr-2.8.3.min.js",
       "PackagePath": "staticwebassets\\js\\vendor\\modernizr-2.8.3.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\vendor\\modernizr-custom.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\vendor\\modernizr-custom.js",
       "PackagePath": "staticwebassets\\js\\vendor\\modernizr-custom.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\wizard\\jquery.steps.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\wizard\\jquery.steps.js",
       "PackagePath": "staticwebassets\\js\\wizard\\jquery.steps.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\wizard\\steps-active.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\wizard\\steps-active.js",
       "PackagePath": "staticwebassets\\js\\wizard\\steps-active.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\wow.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\js\\wow.min.js",
       "PackagePath": "staticwebassets\\js\\wow.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\Users\\Alborz\\Source\\Repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\pdf\\mamunur.pdf",
+      "Id": "D:\\Users\\Alborz\\source\\repos\\Orjin-Destek-Programi\\OrjinDestek\\wwwroot\\pdf\\mamunur.pdf",
       "PackagePath": "staticwebassets\\pdf\\mamunur.pdf"
     },
     {

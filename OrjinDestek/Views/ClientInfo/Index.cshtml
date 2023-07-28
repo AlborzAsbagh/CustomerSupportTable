@@ -97,13 +97,10 @@
 						<div class="sparkline13-graph">
 							<div class="datatable-dashv1-list custom-datatable-overright">
 								<div id="toolbar" style="display: flex;">
-									<select class="form-control dt-tb" style="width: 52%">
+									<select class="form-control dt-tb" style="width:100%">
 										<option value="">Dışa Aktar</option>
 										<option value="all">Hepsini Dışa Aktar</option>
 										<option value="selected">Seçilenleri Dışa Aktar</option>
-									</select>
-									<select class="form-control dt-tb" style="margin-left:10px;width: 65%">
-										
 									</select>
 								</div>
 								<table id="table" data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-pagination-switch="true" data-show-refresh="true" data-key-events="true" data-show-toggle="true" data-resizable="true" data-cookie="true"
@@ -126,7 +123,6 @@
 											<th data-field="vpnKullanici">VPN Kullanıcı</th>
 											<th data-field="vpnSifre">VPN Şifre</th>
 											<th data-field="yardimMasasi">Yardım Masası</th>
-											<th data-field="aciklama">Açıklama</th>
 										</tr>
 									</thead>
 									<tbody>
@@ -135,53 +131,50 @@
 											<tr>
 												<td></td>
 												<td>
-													<a>@item.TB_MB_ID</a>
+													<a>@item.MusteriId</a>
 												</td>
 
 												<td>
-													<a>@item.TB_MB_FIRMA_ISMI</a>
+													<a>@item.FirmaAdi</a>
 												</td>
 												<td>
-													<a>@item.TB_MB_IP_ADRESI</a>
+													<a>@item.IpAdres</a>
 												</td>
 												<td>
-													<a>@item.TB_MB_KULLANICI_KODU</a>
+													<a>@item.KullaniciKodu</a>
 												</td>
 												<td>
-													<a>@item.TB_MB_PAROLA</a>
+													<a>@item.Parola</a>
 												</td>
 												<td>
-													<a>@item.TB_MB_SQL_SUNUCU</a>
+													<a>@item.SqlSunucu</a>
 												</td>
 												<td>
-													<a>@item.TB_MB_SQL_KULLANICI</a>
+													<a>@item.SqlKullanici</a>
 												</td>
 												<td>
-													<a>@item.TB_MB_SQL_SIFRE</a>
+													<a>@item.SqlSifre</a>
 												</td>
 												<td>
-													<a>@item.TB_MB_ANY_DESK_ID</a>
+													<a>@item.AnyDeskId</a>
 												</td>
 												<td>
-													<a>@item.TB_MB_ANY_SIFRE</a>
+													<a>@item.AnyDeskSifre</a>
 												</td>
 												<td>
-													<a>@item.TB_MB_TEAM_VIEWER</a>
+													<a>@item.TeamViewer</a>
 												</td>
 												<td>
-													<a>@item.TB_MB_TEAM_SIFRE</a>
+													<a>@item.TeamViewerSifre</a>
 												</td>
 												<td>
-													<a>@item.TB_MB_VPN_KULLANICI</a>
+													<a>@item.VpnKullanici</a>
 												</td>
 												<td>
-													<a>@item.TB_MB_VPN_SIFRE</a>
+													<a>@item.VpnSifre</a>
 												</td>
 												<td>
-													<a>@item.TB_MB_YARDIM_MASASI</a>
-												</td>
-												<td>
-													<a>@item.TB_MB_ACIKLAMA</a>
+													<a>@item.YardimMasasi</a>
 												</td>
 											</tr>
 										}
@@ -190,7 +183,7 @@
 								</table>
 
 								<div style="width: 100%; display:flex; justify-content: center">
-									<a onclick="window.location.href = '/AddRecord?token='+localStorage.getItem('token')" class="btn btn-primary" style="margin-top: 10px">Yeni Kayıt Ekle</a>
+									<a onclick="window.location.href = '/AddCustomer?token='+localStorage.getItem('token')" class="btn btn-primary" style="margin-top: 10px">Yeni Kayıt Ekle</a>
 								</div>
 							</div>
 						</div>

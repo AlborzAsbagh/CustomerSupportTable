@@ -486,7 +486,7 @@ public class AddRecordController : Controller
 				_con.Close();
 			}
 
-			TempData["Success"] = "Kayıt başarılı bir şekilde eklendi";
+			TempData["Success"] = "Kayıt başarılı şekilde eklendi";
 			return RedirectToAction("Index", "Home", new { token = _token.GetToken() });
 		}
 		catch (Exception e)

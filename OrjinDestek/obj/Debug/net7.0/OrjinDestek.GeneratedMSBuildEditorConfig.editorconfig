@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Users\Alborz\source\repos\Orjin-Destek-Programi\OrjinDestek
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Users/Alborz/source/repos/Orjin-Destek-Programi/OrjinDestek/Views/AddCustomer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkQ3VzdG9tZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Users/Alborz/source/repos/Orjin-Destek-Programi/OrjinDestek/Views/AddRecord/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkUmVjb3JkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

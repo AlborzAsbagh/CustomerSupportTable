@@ -58,24 +58,21 @@ public class ClientInfoController : Controller
 					while (dr.Read())
 					{
 						TbMusteriBilgileri musteriTabloModel = new TbMusteriBilgileri();
-						musteriTabloModel.TB_MB_ID = Convert.ToInt32(dr["TB_MB_ID"]);
-						musteriTabloModel.TB_MB_FIRMA_ISMI = dr["TB_MB_FIRMA_ISMI"] != DBNull.Value ? dr["TB_MB_FIRMA_ISMI"].ToString() : "";
-						musteriTabloModel.TB_MB_IP_ADRESI = dr["TB_MB_IP_ADRESI"] != DBNull.Value ? dr["TB_MB_IP_ADRESI"].ToString() : "";
-						musteriTabloModel.TB_MB_KULLANICI_KODU = dr["TB_MB_KULLANICI_KODU"] != DBNull.Value ? dr["TB_MB_KULLANICI_KODU"].ToString() : "";
-						musteriTabloModel.TB_MB_PAROLA = dr["TB_MB_PAROLA"] != DBNull.Value ? dr["TB_MB_PAROLA"].ToString() : "";
-						musteriTabloModel.TB_MB_SQL_SUNUCU = dr["TB_MB_SQL_SUNUCU"] != DBNull.Value ? dr["TB_MB_SQL_SUNUCU"].ToString() : "";
-						musteriTabloModel.TB_MB_SQL_KULLANICI = dr["TB_MB_SQL_KULLANICI"] != DBNull.Value ? dr["TB_MB_SQL_KULLANICI"].ToString() : "";
-						musteriTabloModel.TB_MB_SQL_SIFRE = dr["TB_MB_SQL_SIFRE"] != DBNull.Value ? dr["TB_MB_SQL_SIFRE"].ToString() : "";
-						musteriTabloModel.TB_MB_ANY_DESK_ID = dr["TB_MB_ANY_DESK_ID"] != DBNull.Value ? dr["TB_MB_ANY_DESK_ID"].ToString() : "";
-						musteriTabloModel.TB_MB_ANY_SIFRE = dr["TB_MB_ANY_SIFRE"] != DBNull.Value ? dr["TB_MB_ANY_SIFRE"].ToString() : "";
-						musteriTabloModel.TB_MB_TEAM_VIEWER = dr["TB_MB_TEAM_VIEWER"] != DBNull.Value ? dr["TB_MB_TEAM_VIEWER"].ToString() : "";
-						musteriTabloModel.TB_MB_TEAM_SIFRE = dr["TB_MB_TEAM_SIFRE"] != DBNull.Value ? dr["TB_MB_TEAM_SIFRE"].ToString() : "";
-						musteriTabloModel.TB_MB_VPN_KULLANICI = dr["TB_MB_VPN_KULLANICI"] != DBNull.Value ? dr["TB_MB_VPN_KULLANICI"].ToString() : "";
-						musteriTabloModel.TB_MB_VPN_SIFRE = dr["TB_MB_VPN_SIFRE"] != DBNull.Value ? dr["TB_MB_VPN_SIFRE"].ToString() : "";
-						musteriTabloModel.TB_MB_YARDIM_MASASI = dr["TB_MB_YARDIM_MASASI"] != DBNull.Value ? dr["TB_MB_YARDIM_MASASI"].ToString() : "";
-						musteriTabloModel.TB_MB_ACIKLAMA = dr["TB_MB_ACIKLAMA"] != DBNull.Value ? dr["TB_MB_ACIKLAMA"].ToString() : "";
-
-
+						musteriTabloModel.MusteriId = Convert.ToInt32(dr["TB_MB_ID"]);
+						musteriTabloModel.FirmaAdi = dr["TB_MB_FIRMA_ISMI"] != DBNull.Value ? dr["TB_MB_FIRMA_ISMI"].ToString() : "";
+						musteriTabloModel.IpAdres = dr["TB_MB_IP_ADRESI"] != DBNull.Value ? dr["TB_MB_IP_ADRESI"].ToString() : "";
+						musteriTabloModel.KullaniciKodu = dr["TB_MB_KULLANICI_KODU"] != DBNull.Value ? dr["TB_MB_KULLANICI_KODU"].ToString() : "";
+						musteriTabloModel.Parola = dr["TB_MB_PAROLA"] != DBNull.Value ? dr["TB_MB_PAROLA"].ToString() : "";
+						musteriTabloModel.SqlSunucu = dr["TB_MB_SQL_SUNUCU"] != DBNull.Value ? dr["TB_MB_SQL_SUNUCU"].ToString() : "";
+						musteriTabloModel.SqlKullanici = dr["TB_MB_SQL_KULLANICI"] != DBNull.Value ? dr["TB_MB_SQL_KULLANICI"].ToString() : "";
+						musteriTabloModel.SqlSifre = dr["TB_MB_SQL_SIFRE"] != DBNull.Value ? dr["TB_MB_SQL_SIFRE"].ToString() : "";
+						musteriTabloModel.AnyDeskId = dr["TB_MB_ANY_DESK_ID"] != DBNull.Value ? dr["TB_MB_ANY_DESK_ID"].ToString() : "";
+						musteriTabloModel.AnyDeskSifre = dr["TB_MB_ANY_SIFRE"] != DBNull.Value ? dr["TB_MB_ANY_SIFRE"].ToString() : "";
+						musteriTabloModel.TeamViewer = dr["TB_MB_TEAM_VIEWER"] != DBNull.Value ? dr["TB_MB_TEAM_VIEWER"].ToString() : "";
+						musteriTabloModel.TeamViewerSifre = dr["TB_MB_TEAM_SIFRE"] != DBNull.Value ? dr["TB_MB_TEAM_SIFRE"].ToString() : "";
+						musteriTabloModel.VpnKullanici = dr["TB_MB_VPN_KULLANICI"] != DBNull.Value ? dr["TB_MB_VPN_KULLANICI"].ToString() : "";
+						musteriTabloModel.VpnSifre = dr["TB_MB_VPN_SIFRE"] != DBNull.Value ? dr["TB_MB_VPN_SIFRE"].ToString() : "";
+						musteriTabloModel.YardimMasasi = dr["TB_MB_YARDIM_MASASI"] != DBNull.Value ? dr["TB_MB_YARDIM_MASASI"].ToString() : "";
 
 						tabloList.Add(musteriTabloModel);
 					}
