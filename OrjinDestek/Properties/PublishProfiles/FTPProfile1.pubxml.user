@@ -7,7 +7,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA3auIbR/FjUyYySgC2htCawAAAAACAAAAAAAQZgAAAAEAACAAAAAJlPd/sjAwLcxB+iY2KWcmcUKrETUUQ0aRrTx7QBRVMQAAAAAOgAAAAAIAACAAAABHBXu1rQ1XO0kHDzg9qtZaz+rJeUxCyohGwXRLICKMdSAAAACbP4yGNk61O1KM0VGKuQ2MJ2eR19PmNQMJ7nAATQpa/kAAAAB70zqRNMG/he6G4jDQJvO2aW60oRgXsz0hpr40O6x2iiNEBdVMIX53KT9w5FM85kwKVfS+UqPoDvE9rQFOOUMr</EncryptedPassword>
     <_PublishTargetUrl>ftp://destek.orjin.net/</_PublishTargetUrl>
-    <History>True|2023-07-19T10:25:41.2391228Z;True|2023-07-18T11:06:18.4928649+03:00;</History>
+    <History>True|2023-07-29T06:57:31.1692586Z;True|2023-07-19T13:25:41.2391228+03:00;True|2023-07-18T11:06:18.4928649+03:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
@@ -39,16 +39,16 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>01/19/2023 19:05:48</publishTime>
     </File>
     <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
-      <publishTime>01/03/2023 03:20:04</publishTime>
+      <publishTime>03/01/2023 03:20:04</publishTime>
     </File>
     <File Include="Microsoft.EntityFrameworkCore.dll">
-      <publishTime>01/03/2023 03:20:36</publishTime>
+      <publishTime>03/01/2023 03:20:36</publishTime>
     </File>
     <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
-      <publishTime>01/03/2023 03:20:54</publishTime>
+      <publishTime>03/01/2023 03:20:54</publishTime>
     </File>
     <File Include="Microsoft.EntityFrameworkCore.SqlServer.dll">
-      <publishTime>01/03/2023 03:21:54</publishTime>
+      <publishTime>03/01/2023 03:21:54</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Caching.Abstractions.dll">
       <publishTime>02/28/2023 20:30:56</publishTime>
@@ -78,7 +78,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>02/28/2023 20:30:12</publishTime>
     </File>
     <File Include="Microsoft.Identity.Client.dll">
-      <publishTime>03/10/2022 20:40:38</publishTime>
+      <publishTime>10/03/2022 20:40:38</publishTime>
     </File>
     <File Include="Microsoft.Identity.Client.Extensions.Msal.dll">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -108,16 +108,16 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>10/23/2021 02:40:24</publishTime>
     </File>
     <File Include="OrjinDestek.deps.json">
-      <publishTime>07/19/2023 13:22:36</publishTime>
+      <publishTime>07/29/2023 09:53:55</publishTime>
     </File>
     <File Include="OrjinDestek.dll">
-      <publishTime>07/19/2023 13:22:18</publishTime>
+      <publishTime>07/29/2023 09:53:35</publishTime>
     </File>
     <File Include="OrjinDestek.exe">
-      <publishTime>07/19/2023 13:22:19</publishTime>
+      <publishTime>07/29/2023 09:53:35</publishTime>
     </File>
     <File Include="OrjinDestek.pdb">
-      <publishTime>07/19/2023 13:22:18</publishTime>
+      <publishTime>07/29/2023 09:53:35</publishTime>
     </File>
     <File Include="OrjinDestek.runtimeconfig.json">
       <publishTime>07/19/2023 13:22:19</publishTime>
@@ -171,7 +171,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>10/13/2022 22:18:58</publishTime>
     </File>
     <File Include="System.Memory.Data.dll">
-      <publishTime>08/04/2021 19:45:54</publishTime>
+      <publishTime>04/08/2021 19:45:54</publishTime>
     </File>
     <File Include="System.Runtime.Caching.dll">
       <publishTime>10/23/2021 02:52:02</publishTime>
@@ -192,7 +192,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>10/23/2021 02:49:44</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>07/19/2023 13:22:36</publishTime>
+      <publishTime>07/29/2023 09:53:58</publishTime>
     </File>
     <File Include="wwwroot/AppCss/Document/document.css">
       <publishTime>07/19/2023 13:16:27</publishTime>
