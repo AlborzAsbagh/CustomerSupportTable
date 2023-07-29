@@ -37,12 +37,33 @@ public class AddCustomerController : Controller
 		{
 			dynamic dy = new ExpandoObject();
 			dy.token = token;
+			dy.getRefNo = getRefNo();
 			return View(dy);
 
 		}
 		return RedirectToAction("Index", "Login");
 	}
 
+
+	//Get Ref.No
+	[HttpGet]
+	public int getRefNo()
+	{
+		int refNo = 0;
+
+		try
+		{
+			_query = " select max(TB_MB_ID) from [ORJINCRM].[dbo].[TB_MUSTERI_BILGILERI] ";
+			_cmd = new SqlCommand(_query, _con);
+			_con.Open();
+			refNo = (int) _cmd.ExecuteScalar();
+			return refNo + 1;
+
+		} catch(Exception ex)
+		{
+			return refNo;
+		}
+	}
 
 	//ADD NEW RECORD
 	[HttpPost]
