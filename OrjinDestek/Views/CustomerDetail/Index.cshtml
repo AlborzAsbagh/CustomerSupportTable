@@ -1,0 +1,226 @@
+﻿@model dynamic
+@{
+	ViewData["Title"] = "Müşteri Detay Bilgileri";
+	ViewData["Token"] = Model.token;
+}
+@if (TempData["Failure"] != null)
+{
+	<script src="js/cute-alert.js"></script>
+	<script type="text/javascript">
+		cuteAlert({
+			type: "error",
+			title: "Hata",
+			message: "@TempData["Failure"]",
+			buttonText: "Tamam",
+		});
+	</script>
+}
+@if (TempData["Success"] != null)
+{
+	<script src="js/cute-alert.js"></script>
+	<script type="text/javascript">
+		cuteAlert({
+			type: "success",
+			title: "Başarılı",
+			message: "@TempData["Failure"]",
+			buttonText: "Tamam",
+		})
+	</script>
+}
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"]</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- favicon
+	============================================ -->
+	<link rel="shortcut icon" type="image/x-icon" href="img/email.png">
+	<!-- Google Fonts
+	============================================ -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+	<!-- Bootstrap CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Bootstrap CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- normalize CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/data-table/bootstrap-table.css">
+	<link rel="stylesheet" href="css/data-table/bootstrap-editable.css">
+	<!-- style CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- responsive CSS
+	============================================ -->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- modernizr JS
+	============================================ -->
+	<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+	<!-- Alert Css -->
+	<link rel="stylesheet" href="css/alert.css" />
+</head>
+
+
+<body>
+
+	<div style="background-color: white ; width: 100%; margin-top: 20px ; border-radius: 10px">
+		<div style="padding: 10px ; width: 100% ; display: flex ; justify-items: start">
+			<h3>Müşteri Detay Bilgileri</h3>
+		</div>
+		<form class="needs-validation" novalidate name="addMusteriForm" method="post"
+			  asp-controller="CustomerDetail" asp-action="UpdateRecord">
+
+			<div class="form-row">
+				<div class="col-md-4 mb-3">
+					<label for="MusteriId">Ref. No</label>
+					<input type="text" class="form-control" required disabled="disabled" value="@Model.getCustomerInfo.MusteriId">
+					<input type="hidden" id="MusteriId" name="MusteriId" value="@Model.getCustomerInfo.MusteriId" />
+				</div>
+				<div class="col-md-4 mb-3">
+					<label for="FirmaAdi">Firma Adı</label>
+					<input type="text" class="form-control" id="FirmaAdi" name="FirmaAdi" required value="@Model.getCustomerInfo.FirmaAdi">
+				</div>
+
+				<div class="col-md-4 mb-3">
+					<label for="IpAdres">IP Adresi</label>
+					<input type="text" class="form-control" id="IpAdres" name="IpAdres" required value="@Model.getCustomerInfo.IpAdres">
+				</div>
+			</div>
+			<div class="form-row">
+
+				<div class="col-md-4 mb-3" style="margin-top: 10px">
+					<label for="KullaniciKodu">Kullacını Kodu</label>
+					<input type="text" class="form-control" id="KullaniciKodu" name="KullaniciKodu" required value="@Model.getCustomerInfo.KullaniciKodu">
+				</div>
+
+				<div class="col-md-4 mb-3" style="margin-top: 10px">
+					<label for="Parola">Parola</label>
+					<input type="text" class="form-control" id="Parola" name="Parola" required value="@Model.getCustomerInfo.Parola">
+				</div>
+
+				<div class="col-md-4 mb-3" style="margin-top: 10px">
+					<label for="SqlSunucu">SQL Sunucu</label>
+					<input type="text" class="form-control" id="SqlSunucu" name="SqlSunucu" required value="@Model.getCustomerInfo.SqlSunucu">
+				</div>
+			</div>
+
+			<div class="form-row">
+
+				<div class="col-md-4 mb-3" style="margin-top: 10px">
+					<label for="SqlKullanici">SQL Kullanıcı</label>
+					<input type="text" class="form-control" id="SqlKullanici" name="SqlKullanici" required value="@Model.getCustomerInfo.SqlKullanici">
+				</div>
+
+				<div class="col-md-4 mb-3" style="margin-top: 10px">
+					<label for="SqlSifre">SQL Şifre</label>
+					<input type="text" class="form-control" id="SqlSifre" name="SqlSifre" required value="@Model.getCustomerInfo.SqlSifre">
+				</div>
+
+				<div class="col-md-4 mb-3" style="margin-top: 10px">
+					<label for="AnyDeskId">AnyDesk Id</label>
+					<input type="text" class="form-control" id="AnyDeskId" name="AnyDeskId" required value="@Model.getCustomerInfo.AnyDeskId">
+				</div>
+
+			</div>
+			<div class="form-row">
+
+				<div class="col-md-4 mb-3" style="margin-top: 10px">
+					<label for="AnyDeskSifre">AnyDesk Şifre</label>
+					<input type="text" class="form-control" id="AnyDeskSifre" name="AnyDeskSifre" required value="@Model.getCustomerInfo.AnyDeskSifre">
+				</div>
+
+				<div class="col-md-4 mb-3" style="margin-top: 10px">
+					<label for="TeamViewer">Team Viewer</label>
+					<input type="text" class="form-control" id="TeamViewer" name="TeamViewer" required value="@Model.getCustomerInfo.TeamViewer">
+				</div>
+
+				<div class="col-md-4 mb-3" style="margin-top: 10px">
+					<label for="TeamViewerSifre">Team Viewer Şifre</label>
+					<input type="text" class="form-control" id="TeamViewerSifre" name="TeamViewerSifre" required value="@Model.getCustomerInfo.TeamViewerSifre">
+				</div>
+
+			</div>
+			<div class="form-row">
+				<div class="col-md-4 mb-3" style="margin-top: 10px">
+					<label for="VpnKullanici">VPN Kullanıcı</label>
+					<input type="text" class="form-control" id="VpnKullanici" name="VpnKullanici" required value="@Model.getCustomerInfo.VpnKullanici">
+				</div>
+
+				<div class="col-md-4 mb-3" style="margin-top: 10px">
+					<label for="VpnSifre">VPN Şifre</label>
+					<input type="text" class="form-control" id="VpnSifre" name="VpnSifre" required value="@Model.getCustomerInfo.VpnSifre">
+				</div>
+
+				<div class="col-md-4 mb-3" style="margin-top: 10px">
+					<label for="YardimMasasi">Yardım Masası</label>
+					<input type="text" class="form-control" id="YardimMasasi" name="YardimMasasi" required value="@Model.getCustomerInfo.YardimMasasi">
+				</div>
+
+			</div>
+
+			<div class="form-row">
+				<div class="col-md-12 mb-3" style="margin-top: 10px">
+					<label for="Aciklama">Konu Açıklama</label>
+					<textarea class="form-control" id="Aciklama" name="Aciklama" rows="5">
+						"@Model.getCustomerInfo.Aciklama"
+					</textarea>
+				</div>
+			</div>
+			<div style="padding: 15px ; width: 100% ; display: flex ; justify-content: center">
+				<button class="btn btn-primary" type="submit">Kayıt Güncelle</button>
+			</div>
+		</form>
+	</div>
+
+
+	<!-- jquery
+	============================================ -->
+	<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<!-- bootstrap JS
+	============================================ -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- wow JS
+	============================================ -->
+	<script src="js/wow.min.js"></script>
+
+	<!-- data table JS
+	============================================ -->
+	<script src="js/data-table/bootstrap-table.js"></script>
+	<script src="js/data-table/tableExport.js"></script>
+	<script src="js/data-table/data-table-active.js"></script>
+	<script src="js/data-table/bootstrap-table-editable.js"></script>
+	<script src="js/data-table/bootstrap-editable.js"></script>
+	<script src="js/data-table/bootstrap-table-resizable.js"></script>
+	<script src="js/data-table/colResizable-1.5.source.js"></script>
+	<script src="js/data-table/bootstrap-table-export.js"></script>
+	<!--  editable JS
+	============================================ -->
+	<script src="js/editable/jquery.mockjax.js"></script>
+	<script src="js/editable/mock-active.js"></script>
+	<script src="js/editable/select2.js"></script>
+	<script src="js/editable/moment.min.js"></script>
+	<script src="js/editable/bootstrap-datetimepicker.js"></script>
+	<script src="js/editable/bootstrap-editable.js"></script>
+	<script src="js/editable/xediable-active.js"></script>
+
+	<!-- tab JS
+	============================================ -->
+	<script src="js/tab.js"></script>
+	<!-- plugins JS
+	============================================ -->
+	<script src="js/plugins.js"></script>
+	<!-- Modal Search Script
+	============================================ -->
+	<script src="js/modal_search.js"></script>
+	<!-- Add Record Validation
+	============================================ -->
+	<script src="js/addRecord.js"></script>
+
+</body>
+
+</html>
